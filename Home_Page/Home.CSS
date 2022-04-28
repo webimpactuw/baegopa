@@ -3,6 +3,10 @@ section.title {
     background-color: green;
     color: blue;
     padding: 100px;
+    height: 150%;
+    /* Add background image URLs here
+    background-image: url("");
+    */
 
     
 }
@@ -12,6 +16,9 @@ section.TOS {
     background-color: red;
     color: blue;
     padding: 100px;
+    /* Add background image URLs here
+    background-image: url("");
+    */
 
 }
 
@@ -20,6 +27,9 @@ section.AYCE {
     background-color: yellow;
     color: blue;
     padding: 100px;
+    /* Add background image URLs here
+    background-image: url("");
+    */
 
 }
 
@@ -28,6 +38,9 @@ section.reserve {
     background-color: rgb(145, 71, 19);
     color: blue;
     padding: 100px;
+    /* Add background image URLs here
+    background-image: url("");
+    */
 
 
 }
@@ -37,14 +50,23 @@ footer {
     background-color: rgb(29, 134, 175);
     color: blue;
     padding: 100px;
+    height: 150%;
+
+    /* Add background image URLs here
+    background-image: url("");
+    */
 
 }
 
 header {
 
     color: blue;
+    height: 100vh;
     padding: 100px;
     display: inline;
+    /* Add background image URLs here*/
+    background-image: url("https://cdn.shopify.com/s/files/1/0615/0851/8126/files/home-about_600x.png?v=1639444104");
+    
 
 
 }
