@@ -1,6 +1,73 @@
-section {
+section.title {
 
     background-color: green;
     color: blue;
+    padding: 100px;
+
     
+}
+
+section.TOS {
+
+    background-color: red;
+    color: blue;
+    padding: 100px;
+
+}
+
+section.AYCE {
+
+    background-color: yellow;
+    color: blue;
+    padding: 100px;
+
+}
+
+section.reserve {
+
+    background-color: rgb(145, 71, 19);
+    color: blue;
+    padding: 100px;
+
+
+}
+
+footer {
+
+    background-color: rgb(29, 134, 175);
+    color: blue;
+    padding: 100px;
+
+}
+
+header {
+
+    color: blue;
+    padding: 100px;
+    display: inline;
+
+
+}
+
+ul {
+    
+    list-style-type: none;
+    margin-left: 80%;
+    padding: 0;
+
+}
+
+li {
+
+    display: inline;
+
+}
+
+li.baegopa {
+
+    top: 30px;
+    margin-top: 20%;;
+    display: inline;
+    margin-left: 0%;
+
 }
