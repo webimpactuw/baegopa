@@ -1,0 +1,19 @@
+.baegopa-menu-header {
+  position: relative;
+  height: 40px;
+  left: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 17px;
+  display: flex;
+  background-color:  #D6C483;
+}
+
+.second-nav-items a {
+  color: #2A4656;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+
