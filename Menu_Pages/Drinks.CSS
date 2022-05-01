@@ -1,0 +1,46 @@
+
+#menu {
+  box-sizing: border-box;
+  padding: 30px;
+  width: 60%;
+}
+
+#recommandation {
+  box-sizing: border-box;
+  padding: 30px;
+  width: 40%;
+}
+
+hr {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  width: 37%;
+  border-top: 1px solid yellow;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#menu {
+  background-color: rgb(255, 255, 237);
+}
+
+#recommandation {
+  color: rgb(255, 255, 237);
+  background-color: black;
+}
+
+.price {
+  float: right;
+}
+
+button {
+  position: relative;
+  left: 165px;
+  bottom: 100px;
+  color: rgba(207, 191, 135, 1);
+  background-color: rgba(49, 70, 85, 1);
+}
