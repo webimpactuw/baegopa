@@ -1,0 +1,25 @@
+.baegopa-header {
+  position: relative;
+  height: 80px;
+  left: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 23px;
+  display: flex;
+  background-color:  #2A4656;
+}
+
+.nav-items {
+  margin-left: 940px;
+}
+
+.nav-items li a {
+  color: #DEDA97;
+  margin: 10px;
+}
+
+
+
+.navbar-nav li a:hover{
+  color: white;
+}
