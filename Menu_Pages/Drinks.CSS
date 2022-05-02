@@ -1,3 +1,10 @@
+img {
+  width: 100%;
+}
+
+header {
+  width: 1280px;
+}
 
 #menu {
   box-sizing: border-box;
@@ -39,7 +46,6 @@ body {
 
 button {
   position: relative;
-  left: 165px;
   bottom: 100px;
   color: rgba(207, 191, 135, 1);
   background-color: rgba(49, 70, 85, 1);
