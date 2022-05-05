@@ -1,0 +1,35 @@
+
+footer {
+    height: 721px;
+    background-color: #2A4656;
+    padding: 5%;
+}
+
+hr {
+    border: 2px solid #F9DB6C;
+    width: 172px;
+}
+
+
+h1, h5 {
+    color: white;
+}
+
+
+img {
+    width: "50";
+}
+
+.map {
+    height: "375";
+}
+
+
+.break {
+    border: 2px solid #F9DB6C;
+    width: 172px;
+}
+
+#address {
+    text-align: center;
+}
