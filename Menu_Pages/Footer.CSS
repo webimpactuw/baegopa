@@ -1,38 +1,45 @@
 
 footer {
-    height: 721px;
+    height: auto;
     background-color: #2A4656;
     padding: 5%;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 721px;
+    /* max-height: 720px; */
 }
 
-hr {
-    border: 2px solid #F9DB6C;
-    width: 172px;
-}
-
-
-h1, h5 {
+h1 {
     color: white;
+    padding-bottom: 10px;
 }
 
-
-img {
-    width: "50";
+.line {
+    border-bottom: solid #F9DB6C;
+    border-width: 5px;
+    width: 20%;
 }
+
+h5 {
+    color: white;
+    padding-top: 10px;
+}
+
+.hours-text {
+    color: white;
+    padding-top: 5%;
+}
+
 
 .map {
-    height: "375";
+    padding-top: 5%;
+    max-width: 75%;
 }
 
-
-.break {
-    border: 2px solid #F9DB6C;
-    width: 172px;
+.location-chunk {
+    text-align: left;
 }
+
 
 #address {
     text-align: center;
