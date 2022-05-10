@@ -25,6 +25,12 @@ h5 {
     padding-top: 10px;
 }
 
+.hours {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5%;
+}
+
 .hours-text {
     color: white;
     padding-top: 5%;
@@ -42,5 +48,6 @@ h5 {
 
 
 #address {
+    display: flex;
     text-align: center;
 }
