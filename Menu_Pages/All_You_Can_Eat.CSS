@@ -1,10 +1,15 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 .text-centered {
+  white-space: nowrap;
   position: absolute;
   top: 60%;
   left: 50%;
+  align-items: center;
   transform: translate(-50%, -50%);
   font-family: 'Roboto';
-  font-style: normal;
   font-size: 100px;
   font-weight: bold;
   color: #FFFFFF;
@@ -19,11 +24,18 @@
 }
 
 .containe-fluid {
-  position: absolute;
-  width: 1107px;
-  height: 793px;
-  left: 206px;
-  top: 864px;
+  /* position: absolute;
+  
+  
+  top: 864px; */
+  position: relative;
+  /* width: 1107px;
+  height: 793px; */
+  /* left: 206px; */
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -34,10 +46,10 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.15em;
-
-color: #000000;
+  color: #000000;
 }
 
 .heading {
   font-weight: 700;
 }
+

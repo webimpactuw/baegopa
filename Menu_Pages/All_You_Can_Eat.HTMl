@@ -7,7 +7,13 @@
     <title style = "font-size: 30px;">Baegopa</title>
     <link href="Menu_header.css" rel="stylesheet">
     <link href="All_You_Can_Eat.CSS" rel="stylesheet">
+    <link href="Footer.CSS" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg baegopa-header">
@@ -34,6 +40,7 @@
         </div>
       </nav>
     </header>
+
     <main>
       <div>
         <img src="allyoucaneat.png" alt="Food" style="width: 100%; height: auto;">
@@ -66,8 +73,41 @@
         
       </div>
     </main>
-    <footer>
-
+    
+    <footer class="row footer">
+      <div class="col">
+          <div class="row row-chunk">
+              <div>
+                  <h1>CONNECT</h1>
+                  <div class="line"></div>
+              </div>
+              <ul class="list-inline mt-4">
+                  <li class="list-inline-item"><a href="" target="_blank" title="twitter"><img src="./images/social.png" width="50"></a></li>
+                  <li class="list-inline-item"><a href="" target="_blank" title="facebook"><img src="./images/social.png" width="50"></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><img src="./images/social.png" width="50"></a></li>
+              </ul>
+          </div>
+          <div class="row row-chunk hours">
+              <div>
+                  <h1>HOURS</h1>
+                  <div class="line"></div>
+              </div>
+              <div class="hours-text">
+                  <h5>Sunday to Thursday 12-9pm</h5>
+                  <h5>Friday & Saturday 12-10pm</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div>
+              <h1>LOCATION</h1>
+              <div class="line"></div>
+          </div>
+          <div class="location-chunk">
+              <img class="map" src="./images/map.png">
+              <h5 id="address">509 7th Ave S, Seattle, WA 98104</h5>
+          </div>
+      </div>
     </footer>
   </body>
 </html>
