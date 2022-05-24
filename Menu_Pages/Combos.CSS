@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+  }
+  
+  #container img {
+    width: 350px;
+  }
+  
+  hr {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    width: 37%;
+    border-top: 1px solid rgba(255, 202, 0, 1);
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #menu {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  #recommandation {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 50%;
+    color: rgb(255, 255, 237);
+    background-color: rgba(56, 56, 56, 1);
+  }
+
+  
+  .price {
+    float: right;
+  }
+
+  .items {
+   float: center;
+  }
+  
+  input {
+    width: 70px;
+    height: 37px;
+    position: relative;
+    top: 30px;
+    left: 1000px;
+    color: rgba(207, 191, 135, 1);
+    background-color: rgba(49, 70, 85, 1);
+  }

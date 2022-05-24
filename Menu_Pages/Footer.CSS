@@ -1,0 +1,54 @@
+
+footer {
+    height: auto;
+    background-color: #2A4656;
+    padding: 5%;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    /* max-height: 720px; */
+    display: inline-block;
+}
+
+footer h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.line {
+    border-bottom: solid #F9DB6C;
+    border-width: 5px;
+    width: 20%;
+}
+
+h5 {
+    color: white;
+    padding-top: 10px;
+}
+
+.hours {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5%;
+}
+
+.hours-text {
+    color: white;
+    padding-top: 5%;
+}
+
+
+.map {
+    padding-top: 5%;
+    max-width: 75%;
+ }
+
+.location-chunk {
+    text-align: left;
+}
+
+
+#address {
+    display: flex;
+    text-align: center;
+}

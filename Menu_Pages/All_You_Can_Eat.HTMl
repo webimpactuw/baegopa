@@ -7,7 +7,13 @@
     <title style = "font-size: 30px;">Baegopa</title>
     <link href="Menu_header.css" rel="stylesheet">
     <link href="All_You_Can_Eat.CSS" rel="stylesheet">
+    <link href="Footer.CSS" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg baegopa-header">
@@ -21,7 +27,7 @@
           <div class="container collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-items ml-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Menu_header.HTML">Home</a>
+                <a class="nav-link active" aria-current="page" href="Home.HTML">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Appetizer.HTML">Menu</a>
@@ -34,6 +40,7 @@
         </div>
       </nav>
     </header>
+
     <main>
       <div>
         <img src="allyoucaneat.png" alt="Food" style="width: 100%; height: auto;">
@@ -45,32 +52,62 @@
         </div>
       </div>
       <div class="containe-fluid">
-        Does every party member get charged AYCE?
-
-Due to the frequent incidents.. tables who order the all you can eat option, every single guest will be charged for the all you can eat price (no exceptions). Those who would not like to eat or are vegetarians will also be charged if they are sitting at the table**
-
-Is free rice available for AYCE customers?
-
-Please let our staff know you would like rice. We have seen an increase amount of food waste for NOT eating your rice. To reduce food waste we will no longer provide rice unless asked.** Thank you for your understanding
-
-When does the AYCE close?
-
-For the best experience (1.5HR), our AYCE menu last call is 1 hour prior to closing. We are more than happy to offer our A la carte, Ready to Eats, and Combos if you come in 1 hour prior to our closing. Thank you!
-
-GENERAL RULES
-Time limit 1.5 hrs
-Everyone at the table must order AYCE
-Minimum of 2 AYCE orders
-Must finish all plates before ordering more
-Only 4 items can be ordered at a time
-Take out is not allowed
-Extra charge of $1.50 for each rice bowl or soup left over
-Extra charge of $5 per person for any meat leftover
-Food can not be taken to-go
+        <p class="heading">Does every party member get charged AYCE?</p>
+        <p>Due to the frequent incidents.. tables who order the all you can eat option, every single guest will be charged for the all you can eat price (no exceptions). Those who would not like to eat or are vegetarians will also be charged if they are sitting at the table**</p>
+        <p class="heading">Is free rice available for AYCE customers?</p>
+        <p>Please let our staff know you would like rice. We have seen an increase amount of food waste for NOT eating your rice. To reduce food waste we will no longer provide rice unless asked.** Thank you for your understanding</p>
+        <p class="heading">When does the AYCE close?</p>
+        <p>For the best experience (1.5HR), our AYCE menu last call is 1 hour prior to closing. We are more than happy to offer our A la carte, Ready to Eats, and Combos if you come in 1 hour prior to our closing. Thank you!</p>
+        <p class="heading">GENERAL RULES:</p>
+        <p>
+          Time limit 1.5 hrs <br/>
+          Everyone at the table must order AYCE <br/>
+          Minimum of 2 AYCE orders <br/>
+          Must finish all plates before ordering more <br/>
+          Only 4 items can be ordered at a time <br/>
+          Take out is not allowed <br/>
+          Extra charge of <b>$1.50 for each rice bowl or soup left over</b> <br/>
+          Extra charge of <b>$5 per person for any meat leftover</b> <br/>
+          Food can not be taken to-go <br/>
+        </p>
+        
       </div>
     </main>
-    <footer>
-
+    
+    <footer class="row footer">
+      <div class="col">
+          <div class="row row-chunk">
+              <div>
+                  <h1>CONNECT</h1>
+                  <div class="line"></div>
+              </div>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item"><a href="https://www.instagram.com/baegopabbq/" target="_blank" title="instagram"><img src="./images/social.png" width="50"></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/Baegopa-112085353975813/" target="_blank" title="facebook"><img src="./images/social.png" width="50"></a></li>
+                <li class="list-inline-item"><a href="https://www.yelp.com/biz/baegopa-seattle" target="_blank" title="yelp"><img src="./images/social.png" width="50"></a></li>
+            </ul>
+          </div>
+          <div class="row row-chunk hours">
+              <div>
+                  <h1>HOURS</h1>
+                  <div class="line"></div>
+              </div>
+              <div class="hours-text">
+                  <h5>Sunday to Thursday 12-9pm</h5>
+                  <h5>Friday & Saturday 12-10pm</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div>
+              <h1>LOCATION</h1>
+              <div class="line"></div>
+          </div>
+          <div class="location-chunk">
+              <img class="map" src="./images/map.png">
+              <h5 id="address">509 7th Ave S, Seattle, WA 98104</h5>
+          </div>
+      </div>
     </footer>
   </body>
 </html>
