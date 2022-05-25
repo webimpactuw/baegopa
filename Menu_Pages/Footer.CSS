@@ -10,7 +10,7 @@ body {
     background-color: #2A4656;
     padding: 5%;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     width: 100%;
     /* max-height: 720px; */
     /* display: inline-block; */
