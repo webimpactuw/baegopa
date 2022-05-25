@@ -19,19 +19,16 @@ hr {
     flex-wrap: wrap;
 }
 
-#menu {
-    box-sizing: border-box;
-    padding: 30px;
-    width: 50%;
-    background-color: rgba(255, 255, 255, 1);
+.menu {
+    padding: 5%;
+    /* background-color: rgba(255, 255, 255, 1); */
 }
 
-#recommandation {
-    box-sizing: border-box;
-    padding: 30px;
-    width: 50%;
+.recommandation {
+    padding: 5%;
     color: rgb(255, 255, 237);
     background-color: rgba(56, 56, 56, 1);
+    /* width: 40%; */
 }
 
 p {
@@ -83,8 +80,6 @@ input {
     background-color: rgba(49, 70, 85, 1);
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.sidebar {
+    width: 45%
 }
