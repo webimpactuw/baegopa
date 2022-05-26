@@ -3,6 +3,7 @@
     background-color: black;
     color: rgb(141, 134, 134);
     padding: 100px;
+    height: 150%;
     /* Add background image URLs here
     background-image: url("");
     */
@@ -11,59 +12,100 @@
 
 .BigLetters {
 
-    font-size: xx-large;
+   font-family: 'Roboto';
+   text-align: left;
+   
+}
+
+.BigLetters>p {
+    margin: 0;
+    padding: 0;
+}
+
+.side-by-side {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.TOS_Box {
+    margin-left: 3rem;
+    display: flex;
+    border-style: solid;
+    border-color: orange;
+    /*text-align: center;*/
+    color: white;
     font-family: 'Roboto';
+    text-align: center;
+
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+p.All_You {
+
+    line-height: 1;
+    font-size: 75px;
+    font-weight: bold;
+
 
 }
 
-section.AYCE {
+p.All_You:not(:first-child) {
+    margin-top: 1rem;
+}
 
-    background-color: yellow;
-    color: blue;
-    padding: 100px;
-    /* Add background image URLs here
-    background-image: url("");
-    */
+a:link {
+
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
 
 }
 
-section.reserve {
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
 
-    background-color: rgb(145, 71, 19);
-    color: blue;
-    padding: 100px;
-    /* Add background image URLs here
-    background-image: url("");
-    */
+.nav-link {
 
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 
 }
 
-footer {
+.default {
+    /*border-color: #e7e7e7;*/
+    color: white;
+  }
 
-    background-color: rgb(29, 134, 175);
-    color: blue;
-    padding: 100px;
-    height: 150%;
-
-    /* Add background image URLs here
-    background-image: url("");
-    */
-
-}
-
-/*header {
-
-    color: blue;
-    height: 100vh;
-    padding: 100px;
-    display: inline;
-    /* Add background image URLs here*/
-    /*background-image: url("https://cdn.shopify.com/s/files/1/0615/0851/8126/files/home-about_600x.png?v=1639444104");
-    
+.default:hover {
+    background: #e7e7e7;
+  }
 
 
-}*/
+  .TOS-text-border {
+
+    border-style: solid;
+    border-color: white;
+    font-size: xx-large;
+  }
 .text-centered {
     position: absolute;
     top: 50%;
