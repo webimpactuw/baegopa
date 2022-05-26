@@ -90,6 +90,18 @@ a:hover {
 
 }
 
+.nav-link-home-drink {
+
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+}
+
 .default {
     /*border-color: #e7e7e7;*/
     color: white;
@@ -123,6 +135,55 @@ a:hover {
     border-style: solid;
     border-color: white;
     font-size: xx-large;
+  }
+
+  .AYCE-menu {
+
+    background-image: url("drink.png");
+
+  }
+
+  .image-captioned {
+      display: grid;
+
+      grid-template-rows: 1 / 2;
+      grid-template-columns: 1 / 2;
+
+      width: 50%;
+  }
+
+  .image-captioned>* {
+      grid-row-start: 1;
+      grid-row-end: 2;
+
+      grid-column-start: 1;
+      grid-column-end: 2;
+
+      width: 100%;
+  }
+
+  .image-captioned p {
+      text-align: center;
+      vertical-align: middle;
+
+      color: white;
+      font-size: 40px;
+      text-decoration: underline;
+  }
+
+  .image-captioned>div {
+        z-index: 1;
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+  }
+
+  .Drinks-menu {
+
+
+
   }
 ul {
     
