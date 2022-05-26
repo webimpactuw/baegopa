@@ -10,6 +10,10 @@ header {
     width: 350px;
 }
 
+#menu-text {
+    font-weight: bold;
+}
+
 hr {
     text-align: left;
     margin: 0px;
@@ -18,9 +22,18 @@ hr {
     border-top: 1px solid rgba(255, 202, 0, 1);
 }
 
+#korean {
+    width: 25%;
+}
+
+#english {
+    width: 75%
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 4%;
 }
 
 .menu {
@@ -37,6 +50,8 @@ hr {
 
 p {
     font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .price {
