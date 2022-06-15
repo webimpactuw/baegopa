@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
@@ -69,74 +70,80 @@
           </div>
         </div>
       </nav>
-      <article id="container">
-        <section id="menu">
-          <article>
-            <h1>BEER</h1>
-            <hr>
-            <p>KIRIN 5%<span class="price">4.95</span></p>
-            <p>TERRA 4.6% (500 ML)<span class="price">7.55</span></p>
-            <p>BEER PITCHER<span class="price">19.95</span></p>
-            <p>SOMAEK TOWER<span class="price">30.95</span></p>
-          </article>
-          <article>
-            <h1>SOJU</h1>
-            <hr>
-            <p>JINRO CHAMISUL 20.1%<span class="price">13.95</span></p>
-            <p>JINRO CHAMISUL FRSH 13.95%<span class="price">13.95</span></p>
-          </article>
-          <article>
-            <h1>FLAVORED SOJU</h1>
-            <hr>
-            <p>APPLE-MANGO SOJU<span class="price">14.95</span></p>
-            <p>APPLE SOJU 12%<span class="price">14.95</span></p>
-            <p>YOGURT SOJU 12%<span class="price">14.95</span></p>
-            <p>PEACH SOJU 12%<span class="price">14.95</span></p>
-            <p>GREEN GRAPE SOJU 12%<span class="price">14.95</span></p>
-            <p>GRAPEFRUIT SOJU 12%<span class="price">14.95</span></p>
-            <p>STRAWBERRY SOJU 12%<span class="price">14.95</span></p>
-          </article>
-          <article>
-            <h1>MAKGEOLLI</h1>
-            <hr>
-            <p>KOOKSOONDANG ORIGINAL 6%<span class="price">12.95</span></p>
-            <p>KOOKSOONDANG PEACH 3%<span class="price">14.95</span></p>
-          </article>
-          <article>
-            <h1>NON-ALCOHOLIC</h1>
-            <hr>
-            <p>COKE<span class="price">1.99</span></p>
-            <p>DIET COKE<span class="price">1.99</span></p>
-            <p>LA CROIX<span class="price">1.99</span></p>
-            <p>SPRITE<span class="price">1.99</span></p>
-            <p>MILKIS<span class="price">2.99</span></p>
-            <p>HOT BARLEY TEA POT(SHAREABLE)<span class="price">2.99</span></p>
-          </article>
-        </section>
-        <section id="recommandation">
-          <article>
-            <h1>CUSTOMER'S FAVORITE</h1>
-            <hr>
-            <p>
-              Perfect drink for any dish! We have all
-              your favorite flavors from apple to yogurt.
-            </p>
-            <img src="images/drinkng.png" alt="Drinks">
-          </article>
-          <article>
-            <h1>NEW SUMMER DRINKS!</h1>
-            <hr>
-            <p>
-              Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!
-            </p>
-            <img src="images/mangomakgeolli.png" alt="Drinks1">
+      <div class="row">
+        <div class="col menu">
+          <section id="menu">
             <article>
-              </p>
-              <img src="images/strawbeerymakgeolli.png" alt="Drinks2">
+              <h1>BEER</h1>
+              <hr>
+              <p>KIRIN 5%<span class="price">4.95</span></p>
+              <p>TERRA 4.6% (500 ML)<span class="price">7.55</span></p>
+              <p>BEER PITCHER<span class="price">19.95</span></p>
+              <p>SOMAEK TOWER<span class="price">30.95</span></p>
             </article>
-          </article>
-        </section>
-      </article>
+            <article>
+              <h1>SOJU</h1>
+              <hr>
+              <p>JINRO CHAMISUL 20.1%<span class="price">13.95</span></p>
+              <p>JINRO CHAMISUL FRSH 13.95%<span class="price">13.95</span></p>
+            </article>
+            <article>
+              <h1>FLAVORED SOJU</h1>
+              <hr>
+              <p>APPLE-MANGO SOJU<span class="price">14.95</span></p>
+              <p>APPLE SOJU 12%<span class="price">14.95</span></p>
+              <p>YOGURT SOJU 12%<span class="price">14.95</span></p>
+              <p>PEACH SOJU 12%<span class="price">14.95</span></p>
+              <p>GREEN GRAPE SOJU 12%<span class="price">14.95</span></p>
+              <p>GRAPEFRUIT SOJU 12%<span class="price">14.95</span></p>
+              <p>STRAWBERRY SOJU 12%<span class="price">14.95</span></p>
+            </article>
+            <article>
+              <h1>MAKGEOLLI</h1>
+              <hr>
+              <p>KOOKSOONDANG ORIGINAL 6%<span class="price">12.95</span></p>
+              <p>KOOKSOONDANG PEACH 3%<span class="price">14.95</span></p>
+            </article>
+            <article>
+              <h1>NON-ALCOHOLIC</h1>
+              <hr>
+              <p>COKE<span class="price">1.99</span></p>
+              <p>DIET COKE<span class="price">1.99</span></p>
+              <p>LA CROIX<span class="price">1.99</span></p>
+              <p>SPRITE<span class="price">1.99</span></p>
+              <p>MILKIS<span class="price">2.99</span></p>
+              <p>HOT BARLEY TEA POT(SHAREABLE)<span class="price">2.99</span></p>
+            </article>
+          </section>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center recommendation">
+          <section>
+            <article>
+              <h3>CUSTOMER'S FAVORITE</h3>
+              <div class="line-center"></div>
+              <p class="normal">
+                Perfect drink for any dish! We have all
+                your favorite flavors from apple to yogurt.
+              </p>
+              <div class="text-center">
+                <img class="img-fluid" src="images/drinkng.png" alt="Drinks">
+              </div>
+            </article>
+            <article>
+              <h3>NEW SUMMER DRINKS!</h3>
+              <div class="line-center"></div>
+              <p class="normal">
+                Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!
+              </p>
+              <div class="text-center">
+                <img class="img-fluid" src="images/mangomakgeolli.png" alt="Drinks1">
+                </p>
+                <img class="img-fluid" src="images/strawbeerymakgeolli.png" alt="Drinks2">
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
     </main>
     <div class="footer-general">
       <footer>
