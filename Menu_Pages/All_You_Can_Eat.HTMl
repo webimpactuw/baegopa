@@ -9,10 +9,10 @@
     <link href="double_header.css" rel="stylesheet">
     <link href="All_You_Can_Eat.CSS" rel="stylesheet">
     <link href="Footer.CSS" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
@@ -70,64 +70,93 @@
           </div>
         </div>
       </nav>
-      <article id="container">
-        <section id="menu">
-          <article>
-            <h1>ALL YOU CAN EAT</h1>
-            <hr>
-            <p style="font-size: 30px; margin-top: 20px; margin-bottom: 0px;
-              letter-spacing: 0.15em;">ADULT 33.95 / KIDS (3-7 YR) 14.95</p>
-            <p style="color: #F9DB6C; font-weight: 700;
-              letter-spacing: 0.15em;">PLEASE LOOK AT AYCE POLICY BEFORE ORDERING</p>
-            <article id="minicontainer">
-              <section id="koreanmenu">
-                <p>뼈없는 짧은 갈비</p>
-                <p>새우</p>
-                <p>닭다리 튀김</p>
-                <p>라이스페이퍼</p>
-                <p>마늘 돼지고기</p>
-                <p>마늘 불고기</p>
-                <p>차돌박이</p>
-                <p>매운닭불고기</p>
-                <p>삼겹살</p>
-                <p>불고기</p>
-                <p>LA 갈비</p>
-                <p>순두부찌개</p>
-                <p>된장찌개</p>
-              </section>
-              <section id="englishmenu">
-                <p>NEW BONELESS SHORT RIBS</p>
-                <p>SHRIMP</p>
-                <p>FRIED CHICKEN DRUMSTICK</p>
-                <p>RICE PAPER SHEETS</p>
-                <p>GARLIC PORK</p>
-                <p>GARLIC BEEF</p>
-                <p>PRIME SLICE OF MARBLED BEEF BRISKET</p>
-                <p>SPICY CHICKEN</p>
-                <p>SLICES OF PORK BELLY</p>
-                <p>MARINATED BEEF BRISKET</p>
-                <p>LA GALBI</p>
-                <p>SOFT TOFU SOUP</p>
-                <p>BEAN PASTE SOUP</p>
-              </section>
-              <img src="allyoucaneat.png" style="width: 100%; height: 70%; padding: 10px;">
+      <div class="row">
+        <div class="col menu">
+          <section id="menu">
+            <article>
+              <h1>ALL YOU CAN EAT</h1>
+              <hr>
+              <p id="price" style="">ADULT 33.95 / KIDS (3-7 YR) 14.95</p>
+              <a style="color: #CDB65E; font-weight: 700;
+                letter-spacing: 0.15em;" href="TOS.HTML">PLEASE LOOK AT AYCE POLICY BEFORE ORDERING</a>
+              <article id="container">
+                <table width="100%">
+                  <tr>
+                    <th>뼈없는 짧은 갈비</th>
+                    <th>NEW BONELESS SHORT RIBS</th>
+                  </tr>
+                  <tr>
+                    <th>새우</th>
+                    <th>SHRIMP</th>
+                  </tr>
+                  <tr>
+                    <th>닭다리 튀김</th>
+                    <th>FRIED CHICKEN DRUMSTICK</th>
+                  </tr>
+                  <tr>
+                    <th>라이스페이퍼</th>
+                    <th>RICE PAPER SHEETS</th>
+                  </tr>
+                  <tr>
+                    <th>마늘 돼지고기</th>
+                    <th>GARLIC PORK</th>
+                  </tr>
+                  <tr>
+                    <th>마늘 불고기</th>
+                    <th>GARLIC BEEF</th>
+                  </tr>
+                  <tr>
+                    <th>차돌박이</th>
+                    <th>PRIME SLICE OF MARBLED BEEF BRISKET</th>
+                  </tr>
+                  <tr>
+                    <th>매운닭불고기</th>
+                    <th>SPICY CHICKEN</th>
+                  </tr>
+                  <tr>
+                    <th>삼겹살</th>
+                    <th>SLICES OF PORK BELLY</th>
+                  </tr>
+                  <tr>
+                    <th>불고기</th>
+                    <th>MARINATED BEEF BRISKET</th>
+                  </tr>
+                  <tr>
+                    <th>LA 갈비</th>
+                    <th>LA GALBI</th>
+                  </tr>
+                  <tr>
+                    <th>순두부찌개</th>
+                    <th>SOFT TOFU SOUP</th>
+                  </tr>
+                  <tr>
+                    <th>된장찌개</th>
+                    <th>BEAN PASTE SOUP</th>
+                  </tr>
+                </table>
+                <img src="allyoucaneat.png" style="width: 100%; height: 70%; padding: 10px;">
+              </article>
             </article>
-          </article>
-        </section>
-        <section id="recommendation">
-          <article style="padding-bottom: 10%;">
-            <h1 id="rightsidetext">ALL YOU CAN EAT MEAT TIER</h1>
-            <hr id="hrcenter">
-            <img src="images/meats.png" alt="Drinks" style="display: block; margin-left: auto; margin-right: auto; width: 80%;">
-          </article>
-          <article>
-            <h1 id="rightsidetext">ENJOY A NEW SUMMER DRINK!</h1>
-            <hr id="hrcenter">
-            <p style="text-align: center;">Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!</p>
-            <img src="images/mangomakgeolli.png" alt="Drinks" style="display: block; margin-left: auto; margin-right: auto; width: 70%; padding-bottom: 10%;">
-          </article>
-        </section>
-      </article>
+          </section>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center recommendation">
+          <section>
+            <article>
+              <h3>ALL YOU CAN EAT MEAT TIER</h3>
+              <div class="line-center"></div>
+              <div class="text-center">
+                <img class="img-fluid" src="images/meats.png" alt="Drinks" style="padding: 6%">
+              </div>
+            </article>
+            <article>
+              <h3>ENJOY A NEW SUMMER DRINK!</h1>
+              <div class="line-center"></div>
+              <p class="normal">Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!</p>
+              <img class="img-fluid" src="images/mangomakgeolli.png" alt="Drinks"/>
+            </article>
+          </section>
+        </div>
+      </div>
     </main>
     <div class="footer-general">
       <footer>

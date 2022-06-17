@@ -130,7 +130,6 @@ p {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  padding-bottom: 12px;
 }
 
 .price {
@@ -166,6 +165,25 @@ article {
   padding-bottom: 5%;
 }
 
+th {
+  padding-bottom: 4%;
+  font-size: 24px;
+}
+
+.combine {
+  margin-bottom: 0px;
+}
+
+.side {
+  color: rgb(132, 131, 131);
+  margin-bottom: 0px;
+  font-size: 60%;
+}
+
+table th{
+  vertical-align: top;
+}
+
 @media screen and (max-width: 500px) {
   p {
       font-weight: bold;
@@ -182,5 +200,11 @@ article {
       padding: 10%;
       color: rgb(255, 255, 237);
       background-color: rgba(56, 56, 56, 1);
+  }
+
+  th {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
   }
 }
