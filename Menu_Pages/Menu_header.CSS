@@ -1,4 +1,16 @@
-.baegopa-header {
+.navbar {
+  transition: all 0.2s;
+  background: #2A4656
+}
+
+.p {
+  color:#DEDA97
+}
+
+#logo {
+  max-height: 50px;
+}
+ /* .baegopa-header {
   position: relative;
   height: 80px;
   left: 0px;
@@ -19,7 +31,6 @@
 }
 
 
-
 .navbar-nav li a:hover{
   color: white;
-}
+} */
