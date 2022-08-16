@@ -1,6 +1,6 @@
-.baegopa-menu-header {
+.menu-header {
   position: relative;
-  height: 40px;
+  height: auto;
   left: 0px;
   font-family: 'Roboto';
   font-style: normal;
@@ -9,11 +9,19 @@
   background-color:  #D6C483;
 }
 
-.second-nav-items a {
+.bottom-nav li a, .bottom-nav li a:visited {
   color: #2A4656;
-  margin-left: 50px;
-  margin-right: 50px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.bottom-nav li a:hover, .bottom-nav li a:active {
+  color: #2A4656;
   font-weight: bold;
 }
 
-
+.bottom-nav li.active a {
+  color: #2A4656;
+  font-weight: bold;
+}
