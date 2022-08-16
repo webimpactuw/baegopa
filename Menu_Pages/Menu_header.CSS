@@ -2,7 +2,7 @@
   transition: all 0.2s;
 }
 
-.main {
+.main-nav {
   background: #2b4557;
 }
 
@@ -32,28 +32,3 @@ ul.top-nav li.active a {
   color: #DEDA97;
   font-weight: 400;
 }
-
- /* .baegopa-header {
-  position: relative;
-  height: 80px;
-  left: 0px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 23px;
-  display: flex;
-  background-color:  #2A4656;
-}
-
-.nav-items {
-  margin-left: 70%;
-}
-
-.nav-items li a {
-  color: #DEDA97;
-  margin: 10px;
-}
-
-
-.navbar-nav li a:hover{
-  color: white;
-} */
