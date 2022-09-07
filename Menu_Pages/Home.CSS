@@ -64,7 +64,7 @@
 p.All_You {
 
     line-height: 1;
-    font-size: 75px;
+    font-size: 3.2vmax;
     font-weight: bold;
 
 
@@ -136,6 +136,12 @@ a:hover {
     font-size: 75px;
     font-weight: bold;
     color: #FFFFFF;
+  }
+
+  .containerTest {
+    position: relative;
+    text-align: center;
+    color: white;
   }
 
   .text-border {
