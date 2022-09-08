@@ -66,8 +66,6 @@ p.All_You {
     line-height: 1;
     font-size: 75px;
     font-weight: bold;
-
-
 }
 
 p.All_You:not(:first-child) {
@@ -228,3 +226,10 @@ li.baegopa {
 
 }
 /**/
+@media screen and (max-width: 450px) {
+
+    p.All_You {
+        font-size: 75px;
+    }
+
+}
