@@ -85,6 +85,10 @@ p.normal {
     font-weight: normal;
 }
 
+article {
+    padding-bottom: 5%;
+  }
+
 @media screen and (max-width: 500px) {
     p {
         font-weight: bold;
