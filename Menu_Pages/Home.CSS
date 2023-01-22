@@ -124,7 +124,8 @@ a:hover {
     border-color: white;
     font-size: xx-large;
   }
-.text-centered {
+
+.title-card {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -133,8 +134,8 @@ a:hover {
     font-style: normal;
     font-size: 75px;
     font-weight: bold;
-    color: #000000;
-  }
+    color: #FFF;
+}
 
   .containerTest {
     position: relative;
@@ -171,7 +172,7 @@ a:hover {
       height: 100%;
 
       object-fit: cover;
-
+      filter: brightness(50%);
       grid-area: 1 / 1 / span 1 / span 1;
   }
 
@@ -206,7 +207,7 @@ a:hover {
 ul {
     
     list-style-type: none;
-    margin-left: 80%;
+    /* margin-left: 80%; */
     padding: 0;
 
 }

@@ -23,6 +23,11 @@ footer h1 {
     /* font-size: 48px; */
 }
 
+h5 a:link, h5 a:visited {
+    color: white;
+}
+
+
 .title {
     display: inline-block;
 }
@@ -63,6 +68,14 @@ h5 {
 
 }
 
+.reservation-text {
+    padding-top: 20px;
+}
+
+.hours-head {
+    font-weight: bold;
+}
+
 iframe {
     padding-top: 30px;
     max-width: 100%;
@@ -78,7 +91,7 @@ iframe {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     h1 {
         font-size: 30px;
     }
