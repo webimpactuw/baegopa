@@ -148,10 +148,11 @@ a:hover {
     color: #FFF;
 }
 
-.containerTest {
+.mainCard {
     position: relative;
     text-align: center;
     color: white;
+    /* margin: 10%; */
 }
 
 .text-border {
