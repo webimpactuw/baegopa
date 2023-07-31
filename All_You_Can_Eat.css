@@ -99,6 +99,11 @@ th {
   margin-top: 20px;
 }
 
+
+table {
+  table-layout: fixed;
+}
+
 @media screen and (max-width: 500px) {
   p {
       font-weight: bold;
