@@ -1,13 +1,142 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.15em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  transition: all 0.2s;
+}
+
+.main-nav {
+  background: #2b4557;
+}
+
+a {
+  color:#DEDA97
+}
+
+#logo {
+  max-height: 70px;
+  margin-left: 5px;
+}
+
+ul.top-nav li a, ul.top-nav li a:visited {
+  color: #DEDA97;
+  font-weight: 400;
+  font-size: 25px;
+  margin-right: 10px;
+  font-family: 'Roboto';
+}
+
+ul.top-nav li a:hover, ul.top-nav li a:active {
+  color: #DEDA97;
+  font-weight: 400;
+}
+
+ul.top-nav li.active a {
+  color: #DEDA97;
+  font-weight: 400;
+} 
+
+
+
+.footer-general {
+  height: auto;
+  background-color: #2A4656;
+  padding: 5%;
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  /* max-height: 720px; */
+  /* display: inline-block; */
+}
+
+footer h1 {
+  color: white;
+  padding-bottom: 20px;
+  line-height: 56px;
+  /* font-size: 48px; */
+}
+
+h5 a:link, h5 a:visited {
+  color: white;
+}
+
+
+.title {
+  display: inline-block;
+}
+
+.hours {
+  padding-top: 5%;
+}
+
+.hours-chunk {
+  margin-top: 10%;
+}
+
+.reservation {
+  margin-top: 10%;
+}
+.line {
+  border-bottom: solid #F9DB6C;
+  border-width: 5px;
+  width: 70%;
+}
+
+h5 {
+  color: white;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.button {
+  padding-right: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 50px;
+}
+
+.hours-text {
+  color: white;
+  padding-top: 20px;
+
+}
+
+.reservation-text {
+  padding-top: 20px;
+}
+
+.hours-head {
+  font-weight: bold;
+}
+
+iframe {
+  padding-top: 30px;
+  max-width: 100%;
+  max-height: 60%;
+}
+
+.location-chunk {
+  display: inline-block;
+  text-align: center;
+}
+
+#address {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+      font-size: 30px;
+  }
+
+  h5 {
+      color: white;
+      font-size: 20px;
+      line-height: 18px;
+      padding-bottom: 30px;
+  }
 }
