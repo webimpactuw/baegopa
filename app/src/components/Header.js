@@ -42,13 +42,13 @@ export default function Header() {
                     <div className="collapse navbar-collapse my-3" id="navbarNav">
                         <ul className="navbar-nav top-nav ms-auto">
                             <li className="nav-item">
-                                <Nav.Link to="/" className="nav-link">Home</Nav.Link>
+                                <Link to="/" className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Nav.Link to="menu" className="nav-link">Menu</Nav.Link>
+                                <Link to="/menu" href="" className="nav-link">Menu</Link>
                             </li>
                             <li className="nav-item">
-                                <Nav.Link to="/" className="nav-link">AYCE</Nav.Link>
+                                <Link to="/" className="nav-link">AYCE</Link>
                             </li>
                         </ul>
                     </div>

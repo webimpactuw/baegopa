@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import HomePage from './HomePage';
 import MenuPage from './MenuPage';
+import AYCE from './AYCE';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route index path="/" element={<HomePage />} />
-        <Route path="menu" element={<MenuPage />} />
+        <Route path="/menu" element={<MenuPage />} />
+        <Route path="/ayce" element={<AYCE />} />
       </Routes>
       <Footer />
     </div>
