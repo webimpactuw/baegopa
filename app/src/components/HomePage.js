@@ -4,7 +4,7 @@ export default function HomePage() {
     return (
         <main>
             <div className="mainCard">
-                <img src="home.png" alt="Food" style={{ width: '100%', height: 'auto', filter: 'brightness(50%)' }} height="50" />
+                <img src="images/home.png" alt="Food" style={{ width: '100%', height: 'auto', filter: 'brightness(50%)' }} height="50" />
                 <div className="title-card text-centered">
                     BAEGOPA
                     <a href="Appetizer.html">
@@ -66,14 +66,14 @@ export default function HomePage() {
                         <div>
                             <a className="nav-link-home-drink" href="Drinks.html">DRINKS</a>
                         </div>
-                        <img src="drink.png" alt="drink"/>
+                        <img src="images/drink.png" alt="drink"/>
                     </div>
                     <div className="AYCE-menu image-captioned">
                         <div>
                             <a className="nav-link-home-drink" href="All_You_Can_Eat.html"
                                 style={{ textAlign: 'center' }}>KOREAN BBQ AYCE</a>
                         </div>
-                        <img src="food.jpeg" alt="food"/>
+                        <img src="images/food.jpeg" alt="food"/>
                     </div>
                 </div>
             </div>

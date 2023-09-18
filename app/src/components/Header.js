@@ -28,9 +28,12 @@ export default function Header() {
         //     </Navbar>
         // </header>
         <header>
-            <nav className="navbar navbar-expand-md main-nav">
-                <div className="container-fluid">
-                    <a href="index.html" className="navbar-brand mb-0"><img id="logo" src="images/baegopalogo.png" /></a>
+            <Navbar className="main-nav" expand="md">
+                <Container fluid>
+                    <Navbar.Brand href="/">
+                        <img id="logo" src="images/baegopalogo.png" alt="baegopa logo"/>
+                    </Navbar.Brand> 
+                    {/* <a href="index.html" className="navbar-brand mb-0"><img id="logo" src="images/baegopalogo.png" /></a> */}
                     <button className="navbar-toggler navbar-dark" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Togglenavigation">
@@ -39,18 +42,18 @@ export default function Header() {
                     <div className="collapse navbar-collapse my-3" id="navbarNav">
                         <ul className="navbar-nav top-nav ms-auto">
                             <li className="nav-item">
-                                <a href="index.html" className="nav-link">Home</a>
+                                <Nav.Link to="/" className="nav-link">Home</Nav.Link>
                             </li>
                             <li className="nav-item">
-                                <a href="Appetizer.html" className="nav-link">Menu</a>
+                                <Nav.Link to="menu" className="nav-link">Menu</Nav.Link>
                             </li>
                             <li className="nav-item">
-                                <a href="TOS.html" className="nav-link">AYCE</a>
+                                <Nav.Link to="/" className="nav-link">AYCE</Nav.Link>
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                </Container>
+            </Navbar>
         </header>
     );
 }
