@@ -1,4 +1,6 @@
 import React from 'react';
+// import './tos.css';
+
 
 export default function AYCE() {
     return (
