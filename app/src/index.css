@@ -397,16 +397,13 @@ li.baegopa {
 }
 
 /* TOS */
-/* 
-* {
-  font-family: 'Roboto', sans-serif;
-}
+
 
 .image {
   position: relative;
 }
 
-.text-centered {
+.top-text {
   white-space: nowrap;
   position: absolute;
   top: 50%;
@@ -463,9 +460,155 @@ li.baegopa {
   .container-fluid.terms {
     font-size: 15px;
   }
-} */
+} 
 
 /* END TOS */
+
+/* APPETIZERS */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+#container img {
+  width: 350px;
+}
+
+#menu-text {
+  font-weight: bold;
+}
+
+hr {
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 3px;
+  width: 37%;
+  border: none;
+  opacity: 1;
+  background-color: #F9DB6C;
+}
+
+#korean {
+  width: 25%;
+}
+
+#english {
+  width: 75%
+}
+
+#price {
+  text-align: end;
+  vertical-align: top;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4%;
+}
+
+.menu {
+  padding: 7%;
+}
+
+.recommendation {
+  padding: 5%;
+  color: rgb(255, 255, 237);
+  background-color: rgba(56, 56, 56, 1);
+}
+
+.menu-items td {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 1em;
+}
+
+.menu-items td:nth-child(1) {
+  vertical-align: top;
+}
+
+.feature {
+  padding-bottom: 15%
+}
+
+.combine {
+  margin-bottom: 0px;
+}
+
+.subtext {
+  color: rgb(132, 131, 131);
+  margin-bottom: 0px;
+  font-size: 75%;
+}
+
+
+p.normal {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 1em;
+}
+
+.price {
+  float: right;
+}
+
+.line {
+  border-bottom: solid #F9DB6C;
+  border-width: 5px;
+  width: 40%;
+}
+
+.line-center {
+  border-bottom: solid #F9DB6C;
+  border-width: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+p.normal {
+  padding-top: 4%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-weight: normal;
+}
+
+article {
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 500px) {
+  .menu-items td {
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      padding-bottom: 2em;
+  }
+
+  h1 {
+      font-size: 30px;
+  }
+
+  .recommendation {
+      padding: 10%;
+      color: rgb(255, 255, 237);
+      background-color: rgba(56, 56, 56, 1);
+  }
+}
+
+
+/* END APPETIZERS */
 
 /**/
 @media screen and (max-width: 450px) {

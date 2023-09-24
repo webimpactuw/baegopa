@@ -4,36 +4,12 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
-        // <header>
-        //     <Navbar expand="md" className="main-nav">
-        //         <Container fluid>
-        //             <Navbar.Brand href="index.html">
-        //                 <img id="logo" src="images/baegopalogo.png" alt="Baegopa Logo" />
-        //             </Navbar.Brand>
-        //             <Navbar.Toggle aria-controls="navbarNav" />
-        //             <Navbar.Collapse id="navbarNav">
-        //                 <Nav className="top-nav ms-auto">
-        //                     <Nav.Item>
-        //                         <Nav.Link href="index.html" className="nav-link active">Home</Nav.Link>
-        //                     </Nav.Item>
-        //                     <Nav.Item>
-        //                         <Nav.Link href="Appetizer.html" className="nav-link">Menu</Nav.Link>
-        //                     </Nav.Item>
-        //                     <Nav.Item>
-        //                         <Nav.Link href="TOS.html" className="nav-link">AYCE</Nav.Link>
-        //                     </Nav.Item>
-        //                 </Nav>
-        //             </Navbar.Collapse>
-        //         </Container>
-        //     </Navbar>
-        // </header>
         <header>
             <Navbar className="main-nav" expand="md">
                 <Container fluid>
                     <Navbar.Brand href="/">
-                        <img id="logo" src="images/baegopalogo.png" alt="baegopa logo"/>
+                        <img id="logo" src="\images/baegopalogo.png" alt="baegopa logo"/>
                     </Navbar.Brand> 
-                    {/* <a href="index.html" className="navbar-brand mb-0"><img id="logo" src="images/baegopalogo.png" /></a> */}
                     <button className="navbar-toggler navbar-dark" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Togglenavigation">
@@ -45,10 +21,10 @@ export default function Header() {
                                 <Link to="/" className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/menu" href="" className="nav-link">Menu</Link>
+                                <Link to="/menu/appetizers" className="nav-link">Menu</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className="nav-link">AYCE</Link>
+                                <Link to="/ayce" className="nav-link">AYCE</Link>
                             </li>
                         </ul>
                     </div>

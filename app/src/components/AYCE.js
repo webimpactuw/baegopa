@@ -6,13 +6,13 @@ export default function AYCE() {
     return (
         <main>
             <div class="image">
-                <img src="allyoucaneat.png" alt="Food" style="width: 100%; height: auto;"/>
-                    <div class="text-centered">
-                        ALL YOU CAN EAT
-                        <div class="text-center">
-                            GUIDELINES
-                        </div>
+                <img src="images/allyoucaneat.png" alt="Food" style={{ width: '100%', height: 'auto' }} />
+                <div class="top-text">
+                    ALL YOU CAN EAT
+                    <div class="text-center">
+                        GUIDELINES
                     </div>
+                </div>
             </div>
             <div class="container-fluid terms">
                 <p class="heading">Does every party member get charged AYCE?</p>
