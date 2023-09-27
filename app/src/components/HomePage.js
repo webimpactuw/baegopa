@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function HomePage() {
     return (
@@ -7,27 +8,28 @@ export default function HomePage() {
                 <img src="images/home.png" alt="Food" style={{ width: '100%', height: 'auto', filter: 'brightness(50%)' }} height="50" />
                 <div className="title-card text-centered">
                     BAEGOPA
-                    <a href="Appetizer.html">
+                    <Link to="/menu/appetizers" className="nav-link">
                         <button className="btn default menu-button">
                             MENU
                         </button>
-                    </a>
+                    </Link>
+
                 </div>
 
             </div>
             <div className="TOS">
                 <div className="side-by-side" style={{ width: '100%' }}>
                     <div className="BigLetters" style={{ width: '35%', height: 'auto', float: 'left' }}>
-                        <p className="All_You" style={{textAlign: 'center'}}>
+                        <p className="All_You" style={{ textAlign: 'center' }}>
                             A L L
                         </p>
-                        <p className="All_You" style={{textAlign: 'center'}}>
+                        <p className="All_You" style={{ textAlign: 'center' }}>
                             Y O U
                         </p>
-                        <p className="All_You" style={{textAlign: 'center'}}>
+                        <p className="All_You" style={{ textAlign: 'center' }}>
                             C A N
                         </p>
-                        <p className="All_You" style={{textAlign: 'center'}}>
+                        <p className="All_You" style={{ textAlign: 'center' }}>
                             E A T
                         </p>
                     </div>
@@ -66,14 +68,14 @@ export default function HomePage() {
                         <div>
                             <a className="nav-link-home-drink" href="Drinks.html">DRINKS</a>
                         </div>
-                        <img src="images/drink.png" alt="drink"/>
+                        <img src="images/drink.png" alt="drink" />
                     </div>
                     <div className="AYCE-menu image-captioned">
                         <div>
                             <a className="nav-link-home-drink" href="All_You_Can_Eat.html"
                                 style={{ textAlign: 'center' }}>KOREAN BBQ AYCE</a>
                         </div>
-                        <img src="images/food.jpeg" alt="food"/>
+                        <img src="images/food.jpeg" alt="food" />
                     </div>
                 </div>
             </div>
