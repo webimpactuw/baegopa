@@ -15,7 +15,6 @@ export default function HomePage() {
                     </Link>
 
                 </div>
-
             </div>
             <div className="TOS">
                 <div className="side-by-side" style={{ width: '100%' }}>
