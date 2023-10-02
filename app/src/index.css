@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color:#DEDA97
+  color: #DEDA97
 }
 
 #logo {
@@ -22,7 +22,8 @@ a {
   margin-left: 5px;
 }
 
-ul.top-nav li a, ul.top-nav li a:visited {
+ul.top-nav li a,
+ul.top-nav li a:visited {
   color: #DEDA97;
   font-weight: 400;
   font-size: 25px;
@@ -30,7 +31,8 @@ ul.top-nav li a, ul.top-nav li a:visited {
   font-family: 'Roboto';
 }
 
-ul.top-nav li a:hover, ul.top-nav li a:active {
+ul.top-nav li a:hover,
+ul.top-nav li a:active {
   color: #DEDA97;
   font-weight: 400;
 }
@@ -38,7 +40,7 @@ ul.top-nav li a:hover, ul.top-nav li a:active {
 ul.top-nav li.active a {
   color: #DEDA97;
   font-weight: 400;
-} 
+}
 
 
 
@@ -60,7 +62,8 @@ footer h1 {
   /* font-size: 48px; */
 }
 
-h5 a:link, h5 a:visited {
+h5 a:link,
+h5 a:visited {
   color: white;
 }
 
@@ -80,6 +83,7 @@ h5 a:link, h5 a:visited {
 .reservation {
   margin-top: 10%;
 }
+
 .line {
   border-bottom: solid #F9DB6C;
   border-width: 5px;
@@ -376,17 +380,19 @@ li.baegopa {
   font-style: normal;
   font-size: 17px;
   display: flex;
-  background-color:  #D6C483;
+  background-color: #D6C483;
 }
 
-.bottom-nav li a, .bottom-nav li a:visited {
+.bottom-nav li a,
+.bottom-nav li a:visited {
   color: #2A4656;
   font-weight: bold;
   margin-right: 20px;
   margin-left: 5px;
 }
 
-.bottom-nav li a:hover, .bottom-nav li a:active {
+.bottom-nav li a:hover,
+.bottom-nav li a:active {
   color: #2A4656;
   font-weight: bold;
 }
@@ -460,7 +466,7 @@ li.baegopa {
   .container-fluid.terms {
     font-size: 15px;
   }
-} 
+}
 
 /* END TOS */
 
@@ -480,6 +486,12 @@ header {
 
 #menu-text {
   font-weight: bold;
+}
+
+#menu-subheader {
+  color: #CDB65E;
+  font-weight: 700;
+  letter-spacing: 0.15em;
 }
 
 hr {
@@ -530,9 +542,13 @@ hr {
   width: 100%;
 }
 
-.menu-items td:nth-child(1) {
+.menu-items td {
   vertical-align: top;
   width: 100%;
+}
+
+.menu-items td:nth-child(2) {
+  padding: 0 5%;
 }
 
 .feature {
@@ -590,12 +606,29 @@ article {
   padding-bottom: 5%;
 }
 
+#ayce-price {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.tos-link {
+  color: #CDB65E;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 500px) {
   .menu-items td {
-      font-weight: bold;
-      font-size: 15px;
-      line-height: 18px;
-      padding-bottom: 2em;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 2em;
   }
 
   .menu-items td:nth-child(1) {
@@ -603,13 +636,18 @@ article {
   }
 
   h1 {
-      font-size: 30px;
+    font-size: 30px;
   }
 
   .recommendation {
-      padding: 10%;
-      color: rgb(255, 255, 237);
-      background-color: rgba(56, 56, 56, 1);
+    padding: 10%;
+    color: rgb(255, 255, 237);
+    background-color: rgba(56, 56, 56, 1);
+  }
+
+  #ayce-price {
+    font-size: 17px;
+    margin-top: 20px;
   }
 }
 
@@ -620,20 +658,20 @@ article {
 @media screen and (max-width: 450px) {
 
   p.All_You {
-      font-size: 75px;
+    font-size: 75px;
   }
 
 }
 
 @media screen and (max-width: 576px) {
   h1 {
-      font-size: 30px;
+    font-size: 30px;
   }
 
   h5 {
-      color: white;
-      font-size: 20px;
-      line-height: 18px;
-      padding-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    line-height: 18px;
+    padding-bottom: 30px;
   }
 }

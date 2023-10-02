@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import HomePage from './HomePage';
-import { AppetizersPage, EntreesPage } from './MenuPage';
-import AYCE from './AYCE';
+import { AppetizersPage, CombosPage, EntreesPage, AYCEPage, SidesPage } from './MenuPage';
+import TOS from './TOS';
 
 function App() {
   return (
@@ -14,7 +14,10 @@ function App() {
         <Route index path="/" element={<HomePage />} />
         <Route path="/menu/appetizers" element={<AppetizersPage />} />
         <Route path="/menu/entrees" element={<EntreesPage />} />
-        <Route path="/ayce" element={<AYCE />} />
+        <Route path="/menu/combos" element={<CombosPage />} />
+        <Route path="/menu/ayce" element={<AYCEPage />} />
+        <Route path="/menu/sides" element={<SidesPage />} />
+        <Route path="/TOS" element={<TOS />} />
       </Routes>
       <Footer />
     </div>
