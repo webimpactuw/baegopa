@@ -532,6 +532,7 @@ hr {
 
 .menu-items td:nth-child(1) {
   vertical-align: top;
+  width: 100%;
 }
 
 .feature {
@@ -542,7 +543,7 @@ hr {
   margin-bottom: 0px;
 }
 
-.subtext {
+.description {
   color: rgb(132, 131, 131);
   margin-bottom: 0px;
   font-size: 75%;
@@ -595,6 +596,10 @@ article {
       font-size: 15px;
       line-height: 18px;
       padding-bottom: 2em;
+  }
+
+  .menu-items td:nth-child(1) {
+    min-width: 120px;
   }
 
   h1 {
