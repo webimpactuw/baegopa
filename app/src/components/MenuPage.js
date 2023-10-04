@@ -1,53 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export function MenuHeader() {
-    return (
-        <nav className="navbar navbar-expand-lg menu-header">
-            <div className="container-fluid">
-                <ul className="navbar-nav bottom-nav">
-                    <li className="nav-item">
-                        <Link to="/menu/appetizers" className="nav-link">APPETIZERS</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/menu/entrees" className="nav-link">ENTREES</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/menu/combos" className="nav-link">COMBOS</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/menu/ayce" className="nav-link">ALL YOU CAN EAT</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/menu/sides" className="nav-link">SIDES</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/menu/drinks" className="nav-link">DRINKS</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/menu/specials" className="nav-link">SPECIALS</Link>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    );
-}
-
-/*
-| Menu Item |
-Korean:
-English:
-description:
-Price:
-
-| Featured Items |
-Title:
-description:
-Picture:
-
-
-*/
-
 const APPETIZER_ITEMS = [
     {
         korean: '감자튀김',
@@ -418,30 +371,130 @@ const SIDE_FEATURES = [
     }
 ]
 
-const DRINKS = {
-    category: 'BEER',
+const BEER = [
+    {
+        english: 'KIRIN 5%',
+        description: '',
+        price: 7.75
+    },
+    {
+        english: 'TERRA 4.6% (500 ML)',
+        description: '',
+        price: 8.55
+    },
+    {
+        english: 'BEER PITCHER',
+        description: '',
+        price: 22.95
+    },
+    {
+        english: 'SOMAEK TOWER',
+        description: 'A COMBINATION OF BEER AND SOJU FLAVOR OF YOUR CHOICE',
+        price: 32.95
+    }
+]
+
+const SOJU = {
+    price: '14.95',
+    items: [
+        'JINRO CHAMISUL 20.1%', 'JINRO CHAMISUL FRESH 13.95%'
+    ]
+}
+
+const FLAVORED_SOJU = {
+    price: '15.95',
+    items: [
+        'APPLE-MANGO SOJU 12%', 'APPLE SOJU 12%', 'YOGRURT SOJU 12%', 'PEACH SOJU 12%', 'GREEN GRAPE SOJU 12%', 'GRAPEFRUIT SOJU 12%', 'STRAWBERRY SOJU 12%'
+    ]
+}
+
+const MAKGEOLLI = {
     items: [
         {
-            english: 'KIRIN 5%',
-            description: '',
-            price: 7.75
+            english: 'KOOKSOONDANG ORIGINAL 6%',
+            price: 13.95
         },
         {
-            english: 'TERRA 4.6% (500 ML)',
-            description: '',
-            price: 8.55
-        },
-        {
-            english: 'BEER PITCHER',
-            description: '',
-            price: 22.95
-        },
-        {
-            english: 'SOMAEK TOWER',
-            description: 'A COMBINATION OF BEER AND SOJU FLAVOR OF YOUR CHOICE',
-            price: 32.95
+            english: 'KOOKSOONDANG PEACH 6%',
+            price: 15.95
         }
     ]
+}
+
+const NON_ALCOHOLIC = {
+    items: [
+        {
+            english: 'COKE',
+            price: '2.50'
+        },
+        {
+            english: 'DIET COKE',
+            price: '2.50'
+        },
+        {
+            english: 'SPRITE',
+            price: '2.50'
+        },
+        {
+            english: 'LA CROIX',
+            price: '2.50'
+        },
+        {
+            english: 'MILKIS',
+            price: '3.15'
+        },
+        {
+            english: 'HOT BARLEY TEA POT (SHAREABLE)',
+            price: '4.99'
+        }
+    ]
+}
+
+const DRINK_FEATURES = [
+    {
+        title: "CUSTOMER'S FAVORITE",
+        description: 'Perfect drink for any dish! We have all your favorite flavors from apple to yogurt.',
+        picture: '/images/drinking.png',
+        alt: 'soju bottles'
+    },
+    {
+        title: 'NEW SUMMER DRINKS!',
+        description: 'Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!',
+        picture: '/images/mangomakgeolli.png',
+        alt: 'mango makgeolli'
+    }
+]
+
+export function MenuHeader() {
+    return (
+        <nav className="navbar navbar-expand-lg menu-header">
+            <div className="container-fluid">
+                <ul className="navbar-nav bottom-nav">
+                    <li className="nav-item">
+                        <Link to="/menu/appetizers" className="nav-link">APPETIZERS</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/menu/entrees" className="nav-link">ENTREES</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/menu/combos" className="nav-link">COMBOS</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/menu/ayce" className="nav-link">ALL YOU CAN EAT</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/menu/sides" className="nav-link">SIDES</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/menu/drinks" className="nav-link">DRINKS</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/menu/specials" className="nav-link">SPECIALS</Link>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    );
 }
 
 export function AppetizersPage() {
@@ -578,8 +631,8 @@ export function CombosPage() {
             );
         })
         return (
-            <div className="combo" key={index}>
-                <h1 id="menu-text">{combo.sectionName}</h1>
+            <div className="menu-section" key={index}>
+                <h1 id="menu-text">{combo.sectionName}<span class="price">{combo.price}</span></h1>
                 <hr />
                 <p id="menu-subheader">{combo.description}</p>
                 <div id="container">
@@ -618,7 +671,7 @@ export function CombosPage() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col menu">
-                        <div>
+                        <div className="menu-section">
                             <h1 id="menu-text">A LA CARTE</h1>
                             <hr />
                             <p id="menu-subheader">MINIMUM OF 2 ORDERS TO BBQ. COMES WTH 1 SIDE SALAD (NO REFILL ON SALAD OR RICE)</p>
@@ -759,7 +812,45 @@ export function SidesPage() {
 }
 
 export function DrinksPage() {
-    const drinks = DRINKS.map((item, index) => {
+    const beer = BEER.map((item, index) => {
+        return (
+            <tr key={index}>
+                <td id="english"><p className="combine">{item.english}</p>
+                    <p className="description">{item.description}</p></td>
+                <td id="price">{item.price}</td>
+            </tr>
+        );
+    })
+
+    const soju = SOJU.items.map((item, index) => {
+        return (
+            <tr key={index}>
+                <td id="english">{item}</td>
+                <td id="price">{SOJU.price}</td>
+            </tr>
+        );
+    })
+
+    const flavored_soju = FLAVORED_SOJU.items.map((item, index) => {
+        return (
+            <tr key={index}>
+                <td id="english">{item}</td>
+                <td id="price">{FLAVORED_SOJU.price}</td>
+            </tr>
+        );
+    })
+
+    const makgeolli = MAKGEOLLI.items.map((item, index) => {
+        return (
+            <tr key={index}>
+                <td id="english"><p className="combine">{item.english}</p>
+                    <p className="description">{item.description}</p></td>
+                <td id="price">{item.price}</td>
+            </tr>
+        );
+    })
+
+    const non_alcoholic = NON_ALCOHOLIC.items.map((item, index) => {
         return (
             <tr key={index}>
                 <td id="english"><p className="combine">{item.english}</p>
@@ -788,22 +879,80 @@ export function DrinksPage() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col menu">
-                        <h1 id="menu-text">SIDES</h1>
-                        <hr />
-                        <div id="container">
-                            <table className="menu-items" width="100%">
-                                <colgroup>
-                                    <col span="1" style={{ width: '25%' }} />
-                                </colgroup>
-                                <tbody>
-                                    {/* {sides_items} */}
-                                </tbody>
-                            </table>
+                        <div className="menu-section">
+                            <h1 id="menu-text">BEER</h1>
+                            <hr />
+                            <div id="container">
+                                <table className="menu-items" width="100%">
+                                    <colgroup>
+                                        <col span="1" style={{ width: '25%' }} />
+                                    </colgroup>
+                                    <tbody>
+                                        {beer}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div className="menu-section">
+                            <h1 id="menu-text">SOJU<span class="price">{soju.price}</span></h1>
+                            <hr />
+                            <div id="container">
+                                <table className="menu-items" width="100%">
+                                    <colgroup>
+                                        <col span="1" style={{ width: '25%' }} />
+                                    </colgroup>
+                                    <tbody>
+                                        {soju}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div className="menu-section">
+                            <h1 id="menu-text">FLAVORED SOJU<span class="price">{flavored_soju.price}</span></h1>
+                            <hr />
+                            <div id="container">
+                                <table className="menu-items" width="100%">
+                                    <colgroup>
+                                        <col span="1" style={{ width: '25%' }} />
+                                    </colgroup>
+                                    <tbody>
+                                        {flavored_soju}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div className="menu-section">
+                            <h1 id="menu-text">MAKGEOLLI</h1>
+                            <hr />
+                            <div id="container">
+                                <table className="menu-items" width="100%">
+                                    <colgroup>
+                                        <col span="1" style={{ width: '25%' }} />
+                                    </colgroup>
+                                    <tbody>
+                                        {makgeolli}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div className="menu-section">
+                            <h1 id="menu-text">NON-ALCOHOLIC</h1>
+                            <hr />
+                            <div id="container">
+                                <table className="menu-items" width="100%">
+                                    <colgroup>
+                                        <col span="1" style={{ width: '25%' }} />
+                                    </colgroup>
+                                    <tbody>
+                                        {non_alcoholic}
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center recommendation">
                         <section>
-                            {/* {sides_features} */}
+                            {drink_features}
                         </section>
                     </div>
                 </div>

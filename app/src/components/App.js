@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import HomePage from './HomePage';
-import { AppetizersPage, CombosPage, EntreesPage, AYCEPage, SidesPage } from './MenuPage';
+import { AppetizersPage, CombosPage, EntreesPage, AYCEPage, SidesPage, DrinksPage } from './MenuPage';
 import TOS from './TOS';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Route path="/menu/combos" element={<CombosPage />} />
         <Route path="/menu/ayce" element={<AYCEPage />} />
         <Route path="/menu/sides" element={<SidesPage />} />
+        <Route path="/menu/Drinks" element={<DrinksPage />} />
         <Route path="/TOS" element={<TOS />} />
       </Routes>
       <Footer />

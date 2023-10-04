@@ -623,6 +623,10 @@ article {
   text-decoration: underline;
 }
 
+.menu-section {
+  padding-bottom: 5%;
+}
+
 @media screen and (max-width: 500px) {
   .menu-items td {
     font-weight: bold;
@@ -673,5 +677,19 @@ article {
     font-size: 20px;
     line-height: 18px;
     padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .top-text {
+    font-size: 35px;
+  }
+
+  .text-center {
+    font-size: 25px;
+  }
+
+  .container-fluid.terms {
+    font-size: 15px;
   }
 }
