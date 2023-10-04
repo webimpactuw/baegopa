@@ -1,0 +1,106 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .row {
+  width: 100%;
+} */
+
+#container img {
+  width: 350px;
+}
+
+#menu-text {
+  font-weight: bold;
+}
+
+hr {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  width: 37%;
+  border: none;
+  opacity: 1;
+  background-color: #F9DB6C;
+}
+
+#korean {
+  width: 25%;
+}
+
+#english {
+  width: 75%
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4%;
+}
+
+.menu {
+  padding: 7%;
+}
+
+.recommendation {
+  padding: 5%;
+  color: rgb(255, 255, 237);
+  background-color: rgba(56, 56, 56, 1);
+}
+
+p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 6px;
+  padding-top: 6px;  
+}
+
+.price {
+  float: right;
+}
+
+.line {
+  border-bottom: solid #F9DB6C;
+  border-width: 5px;
+  width: 40%;
+}
+
+.line-center {
+  border-bottom: solid #F9DB6C;
+  border-width: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+p.normal {
+  padding-top: 4%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 500px) {
+  p {
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      padding-bottom: 6px;
+  }
+
+  h1 {
+      font-size: 30px;
+  }
+
+  .recommendation {
+      padding: 10%;
+      color: rgb(255, 255, 237);
+      background-color: rgba(56, 56, 56, 1);
+  }
+}

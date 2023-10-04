@@ -1,0 +1,248 @@
+.TOS {
+
+    background-color: black;
+    color: rgb(141, 134, 134);
+    padding: 100px;
+    height: 150%;
+    /* Add background image URLs here
+    background-image: url("");
+    */
+
+}
+
+.BigLetters {
+
+    font-family: 'Roboto';
+    text-align: left;
+
+}
+
+.BigLetters>p {
+    margin: 0;
+    padding: 0;
+}
+
+.side-by-side {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.side-by-side-pics {
+    display: flex;
+
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.TOS_Box {
+    margin-left: 3rem;
+    display: flex;
+    border-style: solid;
+    border-color: orange;
+    /*text-align: center;*/
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+p.All_You {
+
+    line-height: 1;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+p.All_You:not(:first-child) {
+    margin-top: 1rem;
+}
+
+a:link {
+
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.nav-link {
+
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+
+}
+
+.nav-link-home-drink {
+
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+
+}
+
+.menu-button {
+    border-radius: 5px;
+    border: 2px solid white;
+    /* background-color: white; */
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.default {
+    /*border-color: #e7e7e7;*/
+    color: white;
+}
+
+.default:hover {
+    background: #e7e7e7;
+}
+
+
+.TOS-text-border {
+
+    border-style: solid;
+    border-color: white;
+    font-size: xx-large;
+}
+
+.title-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 75px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.mainCard {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* margin: 10%; */
+}
+
+.text-border {
+
+    border-style: solid;
+    border-color: white;
+    font-size: xx-large;
+}
+
+.AYCE-menu {
+
+    background-image: url("drink.png");
+
+}
+
+.image-captioned {
+    display: grid;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+
+    width: 50%;
+
+    flex-shrink: 2;
+}
+
+.image-captioned>img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    filter: brightness(50%);
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.image-captioned>* {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    width: 100%;
+}
+
+.image-captioned p {
+    text-align: center;
+    vertical-align: middle;
+
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.image-captioned>div {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+
+    list-style-type: none;
+    /* margin-left: 80%; */
+    padding: 0;
+
+}
+
+li {
+
+    display: inline;
+
+}
+
+li.baegopa {
+
+    top: 30px;
+    margin-top: 20%;
+    ;
+    display: inline;
+    margin-left: 0%;
+
+}
+
+/**/
+@media screen and (max-width: 450px) {
+
+    p.All_You {
+        font-size: 75px;
+    }
+
+}
