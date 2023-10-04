@@ -17,7 +17,7 @@ function App() {
         <Route path="/menu/combos" element={<CombosPage />} />
         <Route path="/menu/ayce" element={<AYCEPage />} />
         <Route path="/menu/sides" element={<SidesPage />} />
-        <Route path="/menu/Drinks" element={<DrinksPage />} />
+        <Route path="/menu/drinks" element={<DrinksPage />} />
         <Route path="/TOS" element={<TOS />} />
       </Routes>
       <Footer />

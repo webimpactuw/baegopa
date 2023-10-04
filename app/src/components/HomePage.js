@@ -65,14 +65,13 @@ export default function HomePage() {
                 <div className="side-by-side-pics" style={{ width: '100%', height: '400px' }}>
                     <div className="AYCE-menu image-captioned">
                         <div>
-                            <a className="nav-link-home-drink" href="Drinks.html">DRINKS</a>
+                            <Link to="/menu/drinks" className="nav-link-home-drink">DRINKS</Link>
                         </div>
                         <img src="images/drink.png" alt="drink" />
                     </div>
                     <div className="AYCE-menu image-captioned">
                         <div>
-                            <a className="nav-link-home-drink" href="All_You_Can_Eat.html"
-                                style={{ textAlign: 'center' }}>KOREAN BBQ AYCE</a>
+                            <Link to="/menu/ayce" style={{textAlign: 'center'}} className="nav-link-home-drink">KOREAN BBQ AYCE</Link>
                         </div>
                         <img src="images/food.jpeg" alt="food" />
                     </div>
