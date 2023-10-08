@@ -10,6 +10,13 @@
 
 }
 
+#menu-text {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+
 .BigLetters {
 
     font-family: 'Roboto';
