@@ -1,38 +1,41 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import appetizer_items_data from './data/appetizer_items.json';
 
-const APPETIZER_ITEMS = [
-    {
-        korean: '감자튀김',
-        english: 'FRENCH FRIES',
-        price: 5.95
-    },
-    {
-        korean: '계란찜',
-        english: 'STEAMED EGG',
-        price: 7.95
-    },
-    {
-        korean: '해물파전',
-        english: 'SEAFOOD PANCAKES',
-        price: 15.95
-    },
-    {
-        korean: '김치전',
-        english: 'KIMCHI PANCAKE',
-        price: 14.95
-    },
-    {
-        korean: '마늘치킨',
-        english: 'FRIED GARLIC WINGS',
-        price: 15.95
-    },
-    {
-        korean: '**NEW**',
-        english: 'YUZU HOT WINGS',
-        price: 16.95
-    }
-]
+// const APPETIZER_ITEMS = [
+//     {
+//         korean: '감자튀김',
+//         english: 'FRENCH FRIES',
+//         price: 5.95
+//     },
+//     {
+//         korean: '계란찜',
+//         english: 'STEAMED EGG',
+//         price: 7.95
+//     },
+//     {
+//         korean: '해물파전',
+//         english: 'SEAFOOD PANCAKES',
+//         price: 15.95
+//     },
+//     {
+//         korean: '김치전',
+//         english: 'KIMCHI PANCAKE',
+//         price: 14.95
+//     },
+//     {
+//         korean: '마늘치킨',
+//         english: 'FRIED GARLIC WINGS',
+//         price: 15.95
+//     },
+//     {
+//         korean: '**NEW**',
+//         english: 'YUZU HOT WINGS',
+//         price: 16.95
+//     }
+// ]
+
+const APPETIZER_ITEMS = appetizer_items_data;
 
 const APPETIZER_FEATURES = [
     {

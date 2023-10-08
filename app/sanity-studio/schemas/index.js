@@ -1,3 +1,3 @@
-import appetizers from './appetizers'
+import appetizer_items from './appetizer_items'
 
-export const schemaTypes = [appetizers]
+export const schemaTypes = [appetizer_items]
