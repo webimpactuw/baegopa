@@ -1,472 +1,52 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import appetizer_items_data from './data/appetizer_items.json';
-
-// const APPETIZER_ITEMS = [
-//     {
-//         korean: '감자튀김',
-//         english: 'FRENCH FRIES',
-//         price: 5.95
-//     },
-//     {
-//         korean: '계란찜',
-//         english: 'STEAMED EGG',
-//         price: 7.95
-//     },
-//     {
-//         korean: '해물파전',
-//         english: 'SEAFOOD PANCAKES',
-//         price: 15.95
-//     },
-//     {
-//         korean: '김치전',
-//         english: 'KIMCHI PANCAKE',
-//         price: 14.95
-//     },
-//     {
-//         korean: '마늘치킨',
-//         english: 'FRIED GARLIC WINGS',
-//         price: 15.95
-//     },
-//     {
-//         korean: '**NEW**',
-//         english: 'YUZU HOT WINGS',
-//         price: 16.95
-//     }
-// ]
+import appetizer_features_data from './data/appetizer_features.json';
+import entree_items_data from './data/entree_items.json';
+import entree_features_data from './data/entree_features.json';
+import alacarte_items_data from './data/alacarte_items.json';
+import combos_data from './data/combos.json';
+import combo_features_data from './data/combo_features.json';
+import ayce_items_data from './data/ayce_items.json';
+import ayce_features_data from './data/ayce_features.json';
+import side_items_data from './data/side_items.json';
+import side_features_data from './data/side_features.json';
+import drink_items_data from './data/drinks.json';
+import drink_features_data from './data/drink_features.json';
 
 const APPETIZER_ITEMS = appetizer_items_data;
 
-const APPETIZER_FEATURES = [
-    {
-        title: 'CUSTOMER\'S FAVORITE',
-        description: 'Seafood pancake! It\'s crunchy, chewy, and delicious!',
-        picture: '/images/pancake.jpg',
-        alt: 'Seafood Pancake'
-    },
-    {
-        title: 'YUZU HOT WINGS',
-        description: 'Spicy, sweet, and tangy! You\'ll be craving these wings for days!',
-        picture: '/images/yuzu.jpg',
-        alt: 'Yuzu Hot Wings'
-    }
-]
+const APPETIZER_FEATURES = appetizer_features_data;
 
-const ENTREE_ITEMS = [
-    {
-        korean: '순두부찌개',
-        english: 'SOFT TOFU SOUP',
-        description: 'CHOICE OF BEEF OR PORK',
-        price: 13.95
-    },
-    {
-        korean: '김치찌개',
-        english: 'KIMCHI SOUP',
-        description: 'SPICY KIMCHI STEW WITH TOFU',
-        price: 13.95
-    },
-    {
-        korean: '김치 볶음밥',
-        english: 'KIMCHI FRIED RICE',
-        description: '',
-        price: 13.95
-    },
-    {
-        korean: '삼겹살 볶음밥',
-        english: 'PORK BELLY FRIED RICE',
-        description: '',
-        price: 13.95
-    },
-    {
-        korean: '매운치킨볶음밥',
-        english: 'SPICY CHICKEN FRIED RICE',
-        description: '',
-        price: 13.95
-    },
-    {
-        korean: '매운닭불고기',
-        english: 'SPICY CHICKEN',
-        description: '',
-        price: 17.95
-    },
-    {
-        korean: '불고기',
-        english: 'BULGOGI',
-        description: '',
-        price: 17.95
-    },
-    {
-        korean: '마늘 불고기',
-        english: 'GARLIC BEEF',
-        description: '',
-        price: 17.95
-    },
-    {
-        korean: '뼈없는 짧은 갈비',
-        english: 'MARINATED BONELESS SHORT RIBS',
-        description: '',
-        price: 28.95
-    },
-    {
-        korean: '비빔밥',
-        english: 'BIBIMBAP',
-        description: '*CONSUMING RAW OR UNDERCOOKED MEAT, POULTRY, SEAFOOD, SHELLFISH OR EGG MAY INCREASE YOUR RISK OF FOOD BORNE ILLNESS',
-        price: 15.95
-    }
-]
+const ENTREE_ITEMS = entree_items_data;
 
-const ENTREE_FEATURES = [
-    {
-        title: 'ALL COMBOS GET A FREE SOUP',
-        description: 'Try our soft tofu soup. Spicy and delicious!',
-        picture: '/images/hotpotentree.png',
-        alt: 'Soondubu'
-    }
-]
+const ENTREE_FEATURES = entree_features_data;
 
-const ALACARTE_ITEMS = {
-    sectionName: 'A LA CARTE',
-    description: 'MINIMUM OF 2 ORDERS TO BBQ. COMES WTH 1 SIDE SALAD (NO REFILL ON SALAD OR RICE)',
-    items: [
-        {
-            korean: '**NEW** 오징어',
-            english: 'SQUID',
-            price: 30.95
-        },
-        {
-            korean: '뼈없는 짧은 갈비',
-            english: 'MARINATED BONELESS SHORT RIBS',
-            price: 40.95
-        },
-        {
-            korean: '차돌백이',
-            english: 'PRIME BEEF BRISKET',
-            price: 28.75
-        },
-        {
-            korean: '마늘 돼지 고기',
-            english: 'GARLIC PORK',
-            price: 28.85
-        },
-        {
-            korean: '마늘 불고기',
-            english: 'GARLIC BEEF',
-            price: 28.75
-        },
-        {
-            korean: '불고기',
-            english: 'MARINATED BEEF BRISKET',
-            price: 28.75
-        },
-        {
-            korean: '삼겹살',
-            english: 'PORK BELLY',
-            price: 26.95
-        },
-        {
-            korean: '매운 닭불고기',
-            english: 'SPICY CHICKEN',
-            price: 26.95
-        }
+const ALACARTE_ITEMS = alacarte_items_data;
 
-    ]
-}
+const COMBOS = combos_data;
 
-const COMBOS = [
-    {
-        sectionName: 'COMBO 1',
-        description: '(RECOMMENDED 3-4 PEOPLE) COMES WITH 1 SIDE SALAD & 1 SIDE SOUP (NO REFILL ON SALAD/SOUP/RICE)',
-        price: '115.95',
-        items: [
-            {
-                korean: '차돌백이',
-                english: 'PRIME SLICE OF MARBLED BEEF BRISKET (2)'
-            },
-            {
-                korean: '삼겹살',
-                english: 'PORK BELLY'
-            },
-            {
-                korean: '뼈없는 짧은 갈비',
-                english: 'MARINATED BONELESS SHORT RIBS'
-            },
-            {
-                korean: '순두부찌개',
-                english: 'SOFT TOFU SOUP (BEEF OR PORK)'
-            },
-            {
-                korean: '',
-                english: 'SIDE SALAD'
-            }
-        ]
-    },
-    {
-        sectionName: 'COMBO 2',
-        description: '(RECOMMENDED 3-4 PEOPLE) COMES WITH 1 SIDE SALAD (NO REFILL ON SALAD OR RICE)',
-        price: '79.95',
-        items: [
-            {
-                korean: '차돌백이',
-                english: 'PRIME SLICE OF MARBLED BEEF BRISKET (2)'
-            },
-            {
-                korean: '불고기',
-                english: 'MARINATED BEEF BRISKET'
-            },
-            {
-                korean: '삼겹살',
-                english: 'PORK BELLY'
-            },
-            {
-                korean: '',
-                english: 'SIDE SALAD'
-            }
-        ]
-    },
-    {
-        sectionName: 'COMBO 3',
-        description: '(RECOMMENDED 2-3 PEOPLE) COMES WITH 1 SIDE SOUP (NO REFILL ON SOUP OR RICE)',
-        price: '58.95',
-        items: [
-            {
-                korean: '삼겹살',
-                english: 'PORK BELLY'
-            },
-            {
-                korean: '매운 닭불고기',
-                english: 'SPICY CHICKEN'
-            },
-            {
-                korean: '순두부찌개',
-                english: 'SOFT TOFU SOUP (BEEF OR PORK)'
-            },
-            {
-                korean: '차돌백이',
-                english: 'PRIME SLICE OF MARBLED BEEF BRISKET (2)'
-            }
-        ]
-    }
-]
+const COMBO_FEATURES = combo_features_data;
 
-const COMBO_FEATURES = [
-    {
-        title: 'ADD YOUR FAVORITE SOJU!',
-        description: 'Perfect drink for any dish! We have all your favorite flavors from apple to yogurt.',
-        picture: '/images/drinking.png',
-        alt: 'Soju bottles'
-    },
-    {
-        title: 'SOONDUBU',
-        description: 'Try our soft tofu soup. Spicy and delicious!',
-        picture: '/images/tofusoup.png',
-        alt: 'Soondubu'
-    },
-    {
-        title: 'NOT ENOUGH FOOD? CONSIDER AYCE!',
-        description: '',
-        picture: '/images/AYCE.png',
-        alt: 'banchan'
-    }
-]
+const AYCE_ITEMS = ayce_items_data;
 
-const AYCE_ITEMS = {
-    price: 'ADULT 36.95 / KIDS (3-7 YR) 15.95',
-    items: [
-        {
-            korean: '**NEW** 오징어',
-            english: 'SQUID'
-        },
-        {
-            korean: '뼈없는 짧은 갈비',
-            english: 'MARINATED BONELESS SHORT RIBS'
-        },
-        {
-            korean: '새우',
-            english: 'SHRIMP'
-        },
-        {
-            korean: '라이스페이퍼',
-            english: 'RICE PAPER SHEETS'
-        },
-        {
-            korean: '마늘 돼지고기',
-            english: 'GARLIC PORK'
-        },
-        {
-            korean: '마늘 불고기',
-            english: 'GARLIC BEEF'
-        },
-        {
-            korean: '차돌박이',
-            english: 'PRIME SLICE OF MARBLED BEEF BRISKET'
-        },
-        {
-            korean: '매운닭불고기',
-            english: 'SPICY CHICKEN'
-        },
-        {
-            korean: '삼겹살',
-            english: 'SLICES OF PORK BELLY'
-        },
-        {
-            korean: '불고기',
-            english: 'MARINATED BEEF BRISKET'
-        },
-        {
-            korean: '순두부찌개',
-            english: 'SOFT TOFU SOUP'
-        },
-        {
-            korean: '된장찌개',
-            english: 'SOYBEAN PASTE SOUP'
-        },
-        {
-            korean: '**LIMITED TIME ONLY**',
-            english: 'NON-MARINATED RIBEYE'
-        },
-        {
-            korean: '**LIMITED TIME ONLY**',
-            english: 'MARINATED RIBEYE'
-        }
-    ]
-}
+const AYCE_FEATURES = ayce_features_data;
 
-const AYCE_FEATURES = [
-    {
-        title: 'ALL YOU CAN EAT MEAT TIER',
-        description: 'We have a variety of meats to choose from!',
-        picture: '/images/meats.png',
-        alt: 'all you can eat meats'
-    },
-    {
-        title: 'ENJOY A NEW SUMMER DRINK!',
-        description: 'Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!',
-        picture: '/images/mangomakgeolli.png',
-        alt: 'mango makgeolli'
-    }
-]
+const SIDE_ITEMS = side_items_data;
 
-const SIDE_ITEMS = [
-    {
-        english: "LETTUCE",
-        price: "3.50"
-    },
-    {
-        english: "SALAD",
-        price: "3.50"
-    },
-    {
-        english: "RICE PAPER SHEETS",
-        price: "1.99"
-    },
-    {
-        english: "RICE",
-        price: "1.99"
-    }
-]
+const SIDE_FEATURES = side_features_data;
 
-const SIDE_FEATURES = [
-    {
-        title: 'AYCE COMES WITH FREE SALAD AND SIDES',
-        description: '',
-        picture: '/images/sides.png',
-        alt: 'salad and sides'
-    }
-]
+const BEER = drink_items_data.beer;
 
-const BEER = [
-    {
-        english: 'KIRIN 5%',
-        description: '',
-        price: 7.75
-    },
-    {
-        english: 'TERRA 4.6% (500 ML)',
-        description: '',
-        price: 8.55
-    },
-    {
-        english: 'BEER PITCHER',
-        description: '',
-        price: 22.95
-    },
-    {
-        english: 'SOMAEK TOWER',
-        description: 'A COMBINATION OF BEER AND SOJU FLAVOR OF YOUR CHOICE',
-        price: 32.95
-    }
-]
+const SOJU = drink_items_data.soju;
 
-const SOJU = {
-    price: '14.95',
-    items: [
-        'JINRO CHAMISUL 20.1%', 'JINRO CHAMISUL FRESH 13.95%'
-    ]
-}
+const FLAVORED_SOJU = drink_items_data.flavored_soju;
 
-const FLAVORED_SOJU = {
-    price: '15.95',
-    items: [
-        'APPLE-MANGO SOJU 12%', 'APPLE SOJU 12%', 'YOGRURT SOJU 12%', 'PEACH SOJU 12%', 'GREEN GRAPE SOJU 12%', 'GRAPEFRUIT SOJU 12%', 'STRAWBERRY SOJU 12%'
-    ]
-}
+const MAKGEOLLI = drink_items_data.makgeolli;
 
-const MAKGEOLLI = {
-    items: [
-        {
-            english: 'KOOKSOONDANG ORIGINAL 6%',
-            price: 13.95
-        },
-        {
-            english: 'KOOKSOONDANG PEACH 6%',
-            price: 15.95
-        }
-    ]
-}
+const NON_ALCOHOLIC = drink_items_data.non_alcoholic;
 
-const NON_ALCOHOLIC = {
-    items: [
-        {
-            english: 'COKE',
-            price: '2.50'
-        },
-        {
-            english: 'DIET COKE',
-            price: '2.50'
-        },
-        {
-            english: 'SPRITE',
-            price: '2.50'
-        },
-        {
-            english: 'LA CROIX',
-            price: '2.50'
-        },
-        {
-            english: 'MILKIS',
-            price: '3.15'
-        },
-        {
-            english: 'HOT BARLEY TEA POT (SHAREABLE)',
-            price: '4.99'
-        }
-    ]
-}
-
-const DRINK_FEATURES = [
-    {
-        title: "CUSTOMER'S FAVORITE",
-        description: 'Perfect drink for any dish! We have all your favorite flavors from apple to yogurt.',
-        picture: '/images/drinking.png',
-        alt: 'soju bottles'
-    },
-    {
-        title: 'NEW SUMMER DRINKS!',
-        description: 'Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!',
-        picture: '/images/mangomakgeolli.png',
-        alt: 'mango makgeolli'
-    }
-]
+const DRINK_FEATURES = drink_features_data;
 
 export function MenuHeader() {
     return (
@@ -843,7 +423,7 @@ export function DrinksPage() {
         );
     })
 
-    const makgeolli = MAKGEOLLI.items.map((item, index) => {
+    const makgeolli = MAKGEOLLI.map((item, index) => {
         return (
             <tr key={index}>
                 <td id="english"><p className="combine">{item.english}</p>
@@ -853,7 +433,7 @@ export function DrinksPage() {
         );
     })
 
-    const non_alcoholic = NON_ALCOHOLIC.items.map((item, index) => {
+    const non_alcoholic = NON_ALCOHOLIC.map((item, index) => {
         return (
             <tr key={index}>
                 <td id="english"><p className="combine">{item.english}</p>
@@ -962,6 +542,27 @@ export function DrinksPage() {
             </div>
         </>
     );
+}
+
+export function SpecialsPage() {
+    return (
+        <>
+            <MenuHeader />
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col menu">
+                        <section>
+                            <article>
+                                <h1 id="menu-text">SIDES</h1>
+                                <hr />
+                                <img class="img-fluid" src="\images/okonomiyaki.png" />
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
 }
 
 

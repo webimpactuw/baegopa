@@ -1,0 +1,46 @@
+{
+    "sectionName": "A LA CARTE",
+    "description": "MINIMUM OF 2 ORDERS TO BBQ. COMES WITH 1 SIDE SALAD (NO REFILL ON SALAD OR RICE)",
+    "items": [
+        {
+            "korean": "**NEW** 오징어",
+            "english": "SQUID",
+            "price": "30.95"
+        },
+        {
+            "korean": "뼈없는 짧은 갈비",
+            "english": "MARINATED BONELESS SHORT RIBS",
+            "price": "40.95"
+        },
+        {
+            "korean": "차돌백이",
+            "english": "PRIME BEEF BRISKET",
+            "price": "28.75"
+        },
+        {
+            "korean": "마늘 돼지 고기",
+            "english": "GARLIC PORK",
+            "price": "28.85"
+        },
+        {
+            "korean": "마늘 불고기",
+            "english": "GARLIC BEEF",
+            "price": "28.75"
+        },
+        {
+            "korean": "불고기",
+            "english": "MARINATED BEEF BRISKET",
+            "price": "28.75"
+        },
+        {
+            "korean": "삼겹살",
+            "english": "PORK BELLY",
+            "price": "26.95"
+        },
+        {
+            "korean": "매운 닭불고기",
+            "english": "SPICY CHICKEN",
+            "price": "26.95"
+        }
+    ]
+}

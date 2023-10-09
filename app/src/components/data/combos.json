@@ -1,0 +1,75 @@
+[
+    {
+        "sectionName": "COMBO 1",
+        "description": "(RECOMMENDED 3-4 PEOPLE) COMES WITH 1 SIDE SALAD & 1 SIDE SOUP (NO REFILL ON SALAD/SOUP/RICE)",
+        "price": "115.95",
+        "items": [
+            {
+                "korean": "차돌백이",
+                "english": "PRIME SLICE OF MARBLED BEEF BRISKET (2)"
+            },
+            {
+                "korean": "삼겹살",
+                "english": "PORK BELLY"
+            },
+            {
+                "korean": "뼈없는 짧은 갈비",
+                "english": "MARINATED BONELESS SHORT RIBS"
+            },
+            {
+                "korean": "순두부찌개",
+                "english": "SOFT TOFU SOUP (BEEF OR PORK)"
+            },
+            {
+                "korean": "",
+                "english": "SIDE SALAD"
+            }
+        ]
+    },
+    {
+        "sectionName": "COMBO 2",
+        "description": "(RECOMMENDED 3-4 PEOPLE) COMES WITH 1 SIDE SALAD (NO REFILL ON SALAD OR RICE)",
+        "price": "79.95",
+        "items": [
+            {
+                "korean": "차돌백이",
+                "english": "PRIME SLICE OF MARBLED BEEF BRISKET (2)"
+            },
+            {
+                "korean": "불고기",
+                "english": "MARINATED BEEF BRISKET"
+            },
+            {
+                "korean": "삼겹살",
+                "english": "PORK BELLY"
+            },
+            {
+                "korean": "",
+                "english": "SIDE SALAD"
+            }
+        ]
+    },
+    {
+        "sectionName": "COMBO 3",
+        "description": "(RECOMMENDED 2-3 PEOPLE) COMES WITH 1 SIDE SOUP (NO REFILL ON SOUP OR RICE)",
+        "price": "58.95",
+        "items": [
+            {
+                "korean": "삼겹살",
+                "english": "PORK BELLY"
+            },
+            {
+                "korean": "매운 닭불고기",
+                "english": "SPICY CHICKEN"
+            },
+            {
+                "korean": "순두부찌개",
+                "english": "SOFT TOFU SOUP (BEEF OR PORK)"
+            },
+            {
+                "korean": "차돌백이",
+                "english": "PRIME SLICE OF MARBLED BEEF BRISKET (2)"
+            }
+        ]
+    }
+]

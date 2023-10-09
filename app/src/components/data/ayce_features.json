@@ -1,0 +1,14 @@
+[
+    {
+        "title": "ALL YOU CAN EAT MEAT TIER",
+        "description": "We have a variety of meats to choose from!",
+        "picture": "/images/meats.png",
+        "alt": "all you can eat meats"
+    },
+    {
+        "title": "ENJOY A NEW SUMMER DRINK!",
+        "description": "Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!",
+        "picture": "/images/mangomakgeolli.png",
+        "alt": "mango makgeolli"
+    }
+]

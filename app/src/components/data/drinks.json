@@ -1,0 +1,79 @@
+
+{
+    "beer": [
+        {
+            "english": "KIRIN 5%",
+            "description": "",
+            "price": "7.75"
+        },
+        {
+            "english": "TERRA 4.6% (500 ML)",
+            "description": "",
+            "price": "8.55"
+        },
+        {
+            "english": "BEER PITCHER",
+            "description": "",
+            "price": "22.95"
+        },
+        {
+            "english": "SOMAEK TOWER",
+            "description": "A COMBINATION OF BEER AND SOJU FLAVOR OF YOUR CHOICE",
+            "price": "32.95"
+        }
+    ],
+    "soju": {
+        "price": "14.95",
+        "items": [
+            "JINRO CHAMISUL 20.1%", "JINRO CHAMISUL FRESH 13.95%"
+        ]
+    },
+    "flavored_soju": {
+        "price": "15.95",
+        "items": [
+            "APPLE-MANGO SOJU 12%",
+            "APPLE SOJU 12%",
+            "YOGRURT SOJU 12%",
+            "PEACH SOJU 12%",
+            "GREEN GRAPE SOJU 12%",
+            "GRAPEFRUIT SOJU 12%",
+            "STRAWBERRY SOJU 12%"
+        ]
+    },
+    "makgeolli": [
+        {
+            "english": "KOOKSOONDANG ORIGINAL 6%",
+            "price": "13.95"
+        },
+        {
+            "english": "KOOKSOONDANG PEACH 6%",
+            "price": "15.95"
+        }
+    ],
+    "non_alcoholic": [
+        {
+            "english": "COKE",
+            "price": "2.50"
+        },
+        {
+            "english": "DIET COKE",
+            "price": "2.50"
+        },
+        {
+            "english": "SPRITE",
+            "price": "2.50"
+        },
+        {
+            "english": "LA CROIX",
+            "price": "2.50"
+        },
+        {
+            "english": "MILKIS",
+            "price": "3.15"
+        },
+        {
+            "english": "HOT BARLEY TEA POT (SHAREABLE)",
+            "price": "4.99"
+        }
+    ]
+}

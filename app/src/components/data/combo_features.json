@@ -1,0 +1,20 @@
+[
+    {
+        "title": "ADD YOUR FAVORITE SOJU!",
+        "description": "Perfect drink for any dish! We have all your favorite flavors from apple to yogurt.",
+        "picture": "/images/drinking.png",
+        "alt": "Soju bottles"
+    },
+    {
+        "title": "SOONDUBU",
+        "description": "Try our soft tofu soup. Spicy and delicious!",
+        "picture": "/images/tofusoup.png",
+        "alt": "Soondubu"
+    },
+    {
+        "title": "NOT ENOUGH FOOD? CONSIDER AYCE!",
+        "description": "",
+        "picture": "/images/AYCE.png",
+        "alt": "banchan"
+    }
+]
