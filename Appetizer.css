@@ -56,6 +56,16 @@ p {
     padding-bottom: 12px;
 }
 
+th {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 24px;
+  }
+
+  table th{
+    vertical-align: top;
+  }
+
 .price {
     float: right;
 }
@@ -106,4 +116,10 @@ article {
         color: rgb(255, 255, 237);
         background-color: rgba(56, 56, 56, 1);
     }
+
+    th {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: bold;
+      }
 }
