@@ -1,0 +1,14 @@
+[
+    {
+        "title": "CUSTOMER'S FAVORITE",
+        "description": "Seafood pancake! It's crunchy, chewy, and delicious!",
+        "picture": "/images/pancake.jpg",
+        "alt": "Seafood Pancake"
+    },
+    {
+        "title": "YUZU HOT WINGS",
+        "description": "Spicy, sweet, and tangy! You'll be craving these wings for days!",
+        "picture": "/images/yuzu.jpg",
+        "alt": "Yuzu Hot Wings"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "title": "CUSTOMER'S FAVORITE",
+        "description": "Perfect drink for any dish! We have all your favorite flavors from apple to yogurt.",
+        "picture": "/images/drinking.png",
+        "alt": "soju bottles"
+    },
+    {
+        "title": "NEW SUMMER DRINKS!",
+        "description": "Fresh Mango and Strawberry Makgeolli Slush! Refreshing and Delicious!",
+        "picture": "/images/mangomakgeolli.png",
+        "alt": "mango makgeolli"
+    }
+]

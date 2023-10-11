@@ -1,0 +1,61 @@
+{
+    "price": "ADULT 36.95 / KIDS (3-7 YR) 15.95",
+    "items": [
+        {
+            "korean": "**NEW** 오징어",
+            "english": "SQUID"
+        },
+        {
+            "korean": "뼈없는 짧은 갈비",
+            "english": "MARINATED BONELESS SHORT RIBS"
+        },
+        {
+            "korean": "새우",
+            "english": "SHRIMP"
+        },
+        {
+            "korean": "라이스페이퍼",
+            "english": "RICE PAPER SHEETS"
+        },
+        {
+            "korean": "마늘 돼지고기",
+            "english": "GARLIC PORK"
+        },
+        {
+            "korean": "마늘 불고기",
+            "english": "GARLIC BEEF"
+        },
+        {
+            "korean": "차돌박이",
+            "english": "PRIME SLICE OF MARBLED BEEF BRISKET"
+        },
+        {
+            "korean": "매운닭불고기",
+            "english": "SPICY CHICKEN"
+        },
+        {
+            "korean": "삼겹살",
+            "english": "SLICES OF PORK BELLY"
+        },
+        {
+            "korean": "불고기",
+            "english": "MARINATED BEEF BRISKET"
+        },
+        {
+            "korean": "순두부찌개",
+            "english": "SOFT TOFU SOUP"
+        },
+        {
+            "korean": "된장찌개",
+            "english": "SOYBEAN PASTE SOUP"
+        },
+        {
+            "korean": "**LIMITED TIME ONLY**",
+            "english": "NON-MARINATED RIBEYE"
+        },
+        {
+            "korean": "**LIMITED TIME ONLY**",
+            "english": "MARINATED RIBEYE"
+        }
+    ]
+}

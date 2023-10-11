@@ -1,7 +1,7 @@
 export default {
-    name: 'appetizer_items',
+    name: 'appetizerItem',
     type: 'document',
-    title: 'Appetizer Items',
+    title: 'Appetizer Item',
     fields: [
         {
             name: 'korean',

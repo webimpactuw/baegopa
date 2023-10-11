@@ -1,0 +1,62 @@
+[
+    {
+        "korean": "순두부찌개",
+        "english": "SOFT TOFU SOUP",
+        "description": "CHOICE OF BEEF OR PORK",
+        "price": "13.95"
+    },
+    {
+        "korean": "김치찌개",
+        "english": "KIMCHI SOUP",
+        "description": "SPICY KIMCHI STEW WITH TOFU",
+        "price": "13.95"
+    },
+    {
+        "korean": "김치 볶음밥",
+        "english": "KIMCHI FRIED RICE",
+        "description": "",
+        "price": "13.95"
+    },
+    {
+        "korean": "삼겹살 볶음밥",
+        "english": "PORK BELLY FRIED RICE",
+        "description": "",
+        "price": "13.95"
+    },
+    {
+        "korean": "매운치킨볶음밥",
+        "english": "SPICY CHICKEN FRIED RICE",
+        "description": "",
+        "price": "13.95"
+    },
+    {
+        "korean": "매운닭불고기",
+        "english": "SPICY CHICKEN",
+        "description": "",
+        "price": "17.95"
+    },
+    {
+        "korean": "불고기",
+        "english": "BULGOGI",
+        "description": "",
+        "price": "17.95"
+    },
+    {
+        "korean": "마늘 불고기",
+        "english": "GARLIC BEEF",
+        "description": "",
+        "price": "17.95"
+    },
+    {
+        "korean": "뼈없는 짧은 갈비",
+        "english": "MARINATED BONELESS SHORT RIBS",
+        "description": "",
+        "price": "28.95"
+    },
+    {
+        "korean": "비빔밥",
+        "english": "BIBIMBAP",
+        "description": "*CONSUMING RAW OR UNDERCOOKED MEAT, POULTRY, SEAFOOD, SHELLFISH OR EGG MAY INCREASE YOUR RISK OF FOOD BORNE ILLNESS",
+        "price": "15.95"
+    }
+]
