@@ -104,6 +104,12 @@ table {
   table-layout: fixed;
 }
 
+.side {
+  color: rgb(132, 131, 131);
+  margin-bottom: 0px;
+  font-size: 60%;
+}
+
 @media screen and (max-width: 500px) {
   p {
       font-weight: bold;
