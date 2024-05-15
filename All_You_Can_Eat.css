@@ -14,6 +14,10 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 hr {
   text-align: left;
   margin-top: 10px;
@@ -86,7 +90,7 @@ p.normal {
 }
 
 article {
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 th {
